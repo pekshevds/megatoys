@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21e50cb7-1cf4-497a-864a-c83807a53e71">
+  <producedTypes>
+    <objectType typeId="42607bf5-b4d7-48f1-a8fe-8a96fcd87ff3" valueTypeId="db1f3fb7-a5ac-4db4-9f20-a8455575f01b"/>
+    <managerType typeId="643a26b7-99eb-4317-941b-64a78af48c7d" valueTypeId="c380053a-798b-4883-903d-504aecd23783"/>
+  </producedTypes>
+  <name>mega_ВедомостьПоСкладскимЗапасам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по складским запасам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.mega_ВедомостьПоСкладскимЗапасам.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Ведомость по складским запасам</value>
+  </extendedPresentation>
+  <templates uuid="fe76ff5b-9328-4942-bc1e-bcb34057d134">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

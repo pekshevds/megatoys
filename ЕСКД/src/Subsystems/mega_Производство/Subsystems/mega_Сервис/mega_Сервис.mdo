@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="027fa522-7c84-46e1-86ea-fd3548baac8c">
+  <name>mega_Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис (дополнительная функциональность)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.mega_РегистрацияПроизводственнойОперации</content>
+  <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a0b2704-28c7-4431-b934-331d4d07aeb7">
+  <producedTypes>
+    <managerType typeId="8fabba33-ae8e-4e7d-87ab-393304b21fbf" valueTypeId="d6569639-d56e-44b1-91a0-5a052eb6c3a7"/>
+    <valueManagerType typeId="61b81b04-80c9-4703-896f-d18e74bbf8bc" valueTypeId="8db0ef5b-3399-4a03-b1b3-eaffbcf4a5f1"/>
+    <valueKeyType typeId="c8b85c5f-a3ed-4474-9d07-9069f9ad5ebd" valueTypeId="5972554c-9d5f-4015-8800-d8de142ee555"/>
+  </producedTypes>
+  <name>mega_ОсновнаяЕдиницаИзмеренияВеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная единица измерения веса</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.mega_КлассификаторЕдиницИзмерения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

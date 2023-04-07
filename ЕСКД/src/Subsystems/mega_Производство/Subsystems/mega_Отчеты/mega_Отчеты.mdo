@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45c009bf-33cd-4994-ad9f-3a5cad252f3d">
+  <name>mega_Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.mega_ОстаткиРесурсов</content>
+  <content>Report.mega_ВедомостьПоПроизводственнымЗапасам</content>
+  <content>Report.mega_ВыработкаИсполнителей</content>
+  <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
+</mdclass:Subsystem>

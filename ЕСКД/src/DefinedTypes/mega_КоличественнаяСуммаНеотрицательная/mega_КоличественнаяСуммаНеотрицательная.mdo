@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="162aedf5-38cc-4bd8-9fde-35887cf5a5a9">
+  <producedTypes>
+    <containerType typeId="fd6141ad-96ed-4ac4-bcae-316844932520" valueTypeId="e43f287a-428d-4731-b15a-1d27625ac173"/>
+  </producedTypes>
+  <name>mega_КоличественнаяСуммаНеотрицательная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количественная сумма неотрицательная</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>20</precision>
+      <scale>5</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

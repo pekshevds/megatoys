@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9fe722e-ecb3-46c4-8c3f-7ce2d7b5a5b8">
+  <producedTypes>
+    <containerType typeId="551d2321-067f-4b08-a103-802afd891fdf" valueTypeId="90c7e50f-d477-484f-8c73-5146ede6fcb7"/>
+  </producedTypes>
+  <name>mega_КоличественнаяСуммаЛюбогоЗнака</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количественная сумма любого знака</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>20</precision>
+      <scale>5</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

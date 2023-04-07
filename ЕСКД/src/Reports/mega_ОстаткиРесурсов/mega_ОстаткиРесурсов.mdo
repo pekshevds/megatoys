@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa377b2e-a76b-4af7-8a98-281df21aac3d">
+  <producedTypes>
+    <objectType typeId="1de36cc0-8592-4e04-9316-6d7ab986969e" valueTypeId="843c769f-c079-404c-8f87-41f5e4d1f92e"/>
+    <managerType typeId="02402ec6-f4b0-4be9-81f4-b885dc38dbd0" valueTypeId="d3cee107-631a-4d8a-89f9-bc661d610b47"/>
+  </producedTypes>
+  <name>mega_ОстаткиРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.mega_ОстаткиРесурсов.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Остатки ресурсов по дням</value>
+  </extendedPresentation>
+  <templates uuid="69cee1b0-7098-4fe1-b687-27342dafd8a4">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

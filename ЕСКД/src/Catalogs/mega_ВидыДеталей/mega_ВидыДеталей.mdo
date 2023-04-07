@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62df760c-5dcd-41a1-bb41-837a424eff1f">
+  <producedTypes>
+    <objectType typeId="050d5d8e-b182-403f-8759-83f31c987aba" valueTypeId="1d1cc41b-7b78-46a3-8f3d-7d4f1c0f839a"/>
+    <refType typeId="d8cd3410-d5ab-47c2-b101-1d41688a8155" valueTypeId="5935cb9a-647a-4fe3-a101-c71f1c0e4f73"/>
+    <selectionType typeId="3df39394-a24d-4796-bd76-fd8c6d4f1f16" valueTypeId="11d72e4f-b625-495f-9223-1d64f3da7c8e"/>
+    <listType typeId="fda6b57a-bf9f-4799-98da-20e304d9b24d" valueTypeId="6cb2eb4c-55db-4216-9ae0-9c119c0743b5"/>
+    <managerType typeId="8f2dcf95-81ce-4157-9d83-7142a26478d9" valueTypeId="a316a992-8360-4277-ba8f-6c630249a7e1"/>
+  </producedTypes>
+  <name>mega_ВидыДеталей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды деталей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_ВидыДеталей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.mega_ВидыДеталей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

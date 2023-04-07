@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61df6101-4e05-4cb3-ab41-5df2bca8aa38">
+  <producedTypes>
+    <objectType typeId="edbc381d-e452-4e57-802f-dc9d64cbadc0" valueTypeId="ca2cd930-6aa5-4965-9438-08fb8c453b67"/>
+    <refType typeId="58a1aa27-6556-408e-8edd-8157404577ea" valueTypeId="cd9cbcd0-8fe5-4966-878b-2df14e65eef4"/>
+    <selectionType typeId="032dad6d-7225-42d7-a558-5f1ea1a6ae91" valueTypeId="e1338156-354d-4aec-bfe4-92a18e05f749"/>
+    <listType typeId="fa4b343b-e0e7-451c-a834-45e87bb98785" valueTypeId="490729a9-95bc-4156-80d4-e40d7848fe80"/>
+    <managerType typeId="fcc9f850-58b8-4995-862d-fae484c6ac58" valueTypeId="3680ea12-fa57-429a-975f-bfd6e78b8d7a"/>
+  </producedTypes>
+  <name>mega_МестаХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_МестаХранения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.mega_МестаХранения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="346548e6-e546-4f0d-b916-24032d78a75d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

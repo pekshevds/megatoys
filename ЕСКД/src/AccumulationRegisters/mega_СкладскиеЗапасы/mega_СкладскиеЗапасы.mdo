@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa2fe9d4-e05f-448e-b7d6-cb7f239e6b27">
+  <producedTypes>
+    <selectionType typeId="fde82756-1dab-4ef2-a206-2c2943876cb0" valueTypeId="2b0ebf78-6718-4155-b638-fe62e7fd1429"/>
+    <listType typeId="cd4e17c5-c046-45e7-95ba-e7f0ae17e2f9" valueTypeId="727f1158-7f6f-4d75-a9b5-30e6084eb83d"/>
+    <managerType typeId="b0b4fdaf-05de-4c74-b6b2-94ee5d6c9aec" valueTypeId="fa9b2412-b800-4e4c-82a2-12517d34a803"/>
+    <recordSetType typeId="1767b8af-81fa-4a7a-82f3-bb312630139a" valueTypeId="0b84bb0b-db69-4f79-b3bc-7571d602de3b"/>
+    <recordKeyType typeId="29fe7319-1d07-4be6-9c26-17fe442be169" valueTypeId="8356efb5-e4cf-4a69-9801-eddb8e863019"/>
+    <recordType typeId="6e6583a2-ad08-4304-aa08-65c4d2a3562a" valueTypeId="f9c5ae54-337c-44d7-ad7c-75c0978b6469"/>
+  </producedTypes>
+  <name>mega_СкладскиеЗапасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские запасы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d0470b53-b8e7-4473-a99b-525e6e1d2ddc">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f90d7181-cbb0-4721-8cb1-83d67112c743">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="56d8ca5e-46db-47be-a8ea-1e127321c81e">
+    <name>ВидСтадииОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стадии обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="afe2d77d-35f3-4e28-bc4d-08c578531cab">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

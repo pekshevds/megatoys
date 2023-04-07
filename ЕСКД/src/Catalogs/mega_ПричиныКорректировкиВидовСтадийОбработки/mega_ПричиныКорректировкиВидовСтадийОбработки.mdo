@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="475199dc-c5be-4473-86e2-8571be094bac">
+  <producedTypes>
+    <objectType typeId="8673b1ad-6b00-4432-aea2-ebb84b3c2c96" valueTypeId="020b54a8-e092-4475-86a7-7b880ba2f57a"/>
+    <refType typeId="582e1293-c062-45ec-87a7-b93deacc4b4a" valueTypeId="2c3c869c-ac03-452e-bb7b-a7433cac5971"/>
+    <selectionType typeId="e38feca4-55fc-4203-b814-afad2ddaca60" valueTypeId="70c2eba1-e527-4791-8f5c-7df228d0b3cf"/>
+    <listType typeId="51dc5609-b2b8-4df7-bbaa-2a3d8fceb141" valueTypeId="9f265c60-d023-4d04-804c-168850faf1c9"/>
+    <managerType typeId="e1e83daf-ac4e-4fcf-b4bc-091c1f5ba8ee" valueTypeId="f3a08d6a-33ed-4b3e-92dc-493915e87383"/>
+  </producedTypes>
+  <name>mega_ПричиныКорректировкиВидовСтадийОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины корректировки видов стадий обработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_ПричиныКорректировкиВидовСтадийОбработки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

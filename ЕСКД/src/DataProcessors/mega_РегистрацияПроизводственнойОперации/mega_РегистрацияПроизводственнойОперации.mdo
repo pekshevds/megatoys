@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d4a293a-471f-4aba-b909-8f68992aea73">
+  <producedTypes>
+    <objectType typeId="74ce9462-68bf-41a2-a605-a0acc986e11f" valueTypeId="51288740-ea38-4378-852d-aa1ca306106c"/>
+    <managerType typeId="be52f0c7-51e7-4104-9b52-49476d242ed6" valueTypeId="03c4ed6d-951c-42f5-b98a-f6e7bfdd2fb0"/>
+  </producedTypes>
+  <name>mega_РегистрацияПроизводственнойОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация производственной операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.mega_РегистрацияПроизводственнойОперации.Form.Форма</defaultForm>
+  <attributes uuid="3cedf5b1-182f-490e-a775-f5117354d6dd">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="74d3fd7f-d079-4c73-93c3-409ccde815f5">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Спецификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>DataProcessor.mega_РегистрацияПроизводственнойОперации.Attribute.Номенклатура</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="8da49a91-6c93-48d4-ac59-2ce1adfaad79">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>DataProcessor.mega_РегистрацияПроизводственнойОперации.Attribute.Номенклатура</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="cd83c10d-5767-47f0-9a1c-411816ebf9a7">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="198b597c-79ed-4bb3-86f9-8e2bcc8fe8cf">
+    <name>ВидСтадииОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стадии обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="3559ed31-607c-4dcb-9e3b-e856b4a3d96a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

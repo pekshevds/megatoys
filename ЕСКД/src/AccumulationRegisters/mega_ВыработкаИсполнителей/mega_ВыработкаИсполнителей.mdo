@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec185dd3-98a8-4a74-b1b3-4faa8464ac61">
+  <producedTypes>
+    <selectionType typeId="5a9d832a-b6fd-4deb-9345-c6d1df74bc4b" valueTypeId="400d7cc0-5d83-4723-b8b2-ad4690c5bbbf"/>
+    <listType typeId="536e8469-0abd-4431-91a0-a359fa475c26" valueTypeId="ac7b79da-9c32-48bd-ab55-aa8e333f30dd"/>
+    <managerType typeId="a69fbb9c-d039-4982-91a4-a4028ed04dbf" valueTypeId="476329c4-adf9-4fed-b061-06a861fb16a0"/>
+    <recordSetType typeId="f9d6c71c-a36f-4b9e-be54-99cd0d633eac" valueTypeId="1fba3bcf-7971-4bd0-9526-2a12b0de5367"/>
+    <recordKeyType typeId="c6acf023-9047-43cd-8346-966840ce8d62" valueTypeId="cca9f4e4-4c17-41a4-8c9c-5b5bf159866e"/>
+    <recordType typeId="1da97c8c-c9a9-4bd4-a9c7-6a34d094a009" valueTypeId="940298d4-5fef-4ac7-af9d-3eeb1ebcdfb1"/>
+  </producedTypes>
+  <name>mega_ВыработкаИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f8005048-e02a-4230-af23-453ae6e1eac3">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="cb6f4bf2-9eec-4756-8620-3390f4916231">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_ВремяВСекундах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="856d8a7e-f4d0-4b83-9ba3-b700e740837d">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bcb2b22f-4cfd-4446-a810-35505ef5864f">
+    <name>ТехнологическаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

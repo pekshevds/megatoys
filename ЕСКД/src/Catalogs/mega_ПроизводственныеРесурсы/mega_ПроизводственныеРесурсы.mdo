@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97611ba3-4d86-4024-bc72-e567653656b9">
+  <producedTypes>
+    <objectType typeId="c72c7a42-4dc0-4493-9155-a2eb006dc19d" valueTypeId="2bcbdb59-1d7f-4a13-af84-03e79e49e742"/>
+    <refType typeId="1f20f7a0-ce90-4023-bce6-fc628004fe8d" valueTypeId="3019b761-cf74-495c-9aad-84a52116d957"/>
+    <selectionType typeId="0a38c565-bf10-4244-b609-600962956019" valueTypeId="8efe8277-12e5-4827-bb75-776ab2c2e510"/>
+    <listType typeId="0f308005-84e5-47e8-942a-302b429089e9" valueTypeId="2a11ace0-c42d-453f-8403-d43a6ca0255c"/>
+    <managerType typeId="a9131fd3-d5a2-4b40-9117-496fcde702a9" valueTypeId="8620cfb7-02af-403f-befb-59be1cf0fd68"/>
+  </producedTypes>
+  <name>mega_ПроизводственныеРесурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные ресурсы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_ПроизводственныеРесурсы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.mega_ПроизводственныеРесурсы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.mega_ПроизводственныеРесурсы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="efcae40e-a6b6-4e45-8cd1-86b657394eb5">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_ВремяВСекундах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7f5676f8-fa3d-4978-b3df-cf253140054d">
+    <producedTypes>
+      <objectType typeId="2d421bfb-8b52-4649-95ee-90fec28bde8c" valueTypeId="d7479da4-80f5-4d15-907d-3e373faa3497"/>
+      <rowType typeId="859fdb96-6684-4a42-aa22-54d9f2125387" valueTypeId="8eb7f62e-5acc-497b-b3a1-f76d15a6113d"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <attributes uuid="d11f7768-22bc-4531-9cf3-8f5fc61637b3">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="195f6ebc-1b53-48c6-8f86-cab5fcb62e5a">
+      <name>Время</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_ВремяВСекундах</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d835a4a3-227a-40dd-8046-92880292e456">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

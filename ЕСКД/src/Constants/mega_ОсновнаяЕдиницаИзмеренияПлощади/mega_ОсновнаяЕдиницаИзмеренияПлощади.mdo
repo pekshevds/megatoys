@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35d45ff3-376a-4612-8414-707e3edab1ae">
+  <producedTypes>
+    <managerType typeId="c32e4cb4-ce53-4cfc-9d2a-ccd28d87fb92" valueTypeId="a60459f3-8565-43ed-8ffa-1694166f30ca"/>
+    <valueManagerType typeId="5940d42c-9c6b-4fb1-bd52-8fb5b7a94e7d" valueTypeId="61b4daf4-f19a-4c54-97e5-2ad0354d7f08"/>
+    <valueKeyType typeId="e1605e73-01bc-4c1d-b32e-588ed27451f3" valueTypeId="ceab25b5-c4c4-4582-9f9d-c1ca762a1c2b"/>
+  </producedTypes>
+  <name>mega_ОсновнаяЕдиницаИзмеренияПлощади</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная единица измерения площади</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.mega_КлассификаторЕдиницИзмерения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

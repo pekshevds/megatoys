@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b7a9554-6bb2-4425-9691-3d521d9d2f95">
+  <producedTypes>
+    <selectionType typeId="365669fe-390c-4474-9c84-5d143126e348" valueTypeId="dde7a1ce-99de-4cc2-8bdd-3f72c28b66a7"/>
+    <listType typeId="e285f3d8-3303-42a5-a7f8-e9dad49532d6" valueTypeId="7da1d8bc-09c9-425e-bf63-5c633a8697ac"/>
+    <managerType typeId="58682641-4aa2-44b2-b023-70d9cda449e3" valueTypeId="b97bd93f-f87c-428f-bd46-99cb0f14d882"/>
+    <recordSetType typeId="468ccb75-d427-4c54-b505-b4958d905fd0" valueTypeId="44a4692a-74ce-439f-9cb9-866615ed20f6"/>
+    <recordKeyType typeId="d359ba13-2c0c-451d-abeb-2f2ff9c4f1df" valueTypeId="a133d9d4-87ef-4def-90ea-070381bd2148"/>
+    <recordType typeId="5f66d311-0ecd-412f-bb33-8509cf60a17b" valueTypeId="4f3e2044-052c-487e-8f6e-2521594772fc"/>
+  </producedTypes>
+  <name>mega_ПроизводственныеРесурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные ресурсы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b76f4a2a-3d70-4fc3-91d5-b34791fe4a3e">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_ВремяВСекундах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="60e6e5fc-82c6-4eb5-b203-97e21895ea9a">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Спецификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="898db3c9-b680-4dad-966d-ab7682e7004e">
+    <name>ВидСтадииОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стадии обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="687c9216-5af7-4c6d-b7c6-a7412003b1b9">
+    <name>ТехнологическаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.mega_ТипыНоменклатуры.EnumValue.Операция</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="d3674445-ffc3-48ff-8671-a5d3ddd3f43f">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ПроизводственныеРесурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="724149af-55d9-453d-b5dc-9e75ee627a4d">
+    <name>ДатаРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ресурса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

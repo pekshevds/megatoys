@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5faac400-c76e-4440-b5b1-725d61235e07">
+  <producedTypes>
+    <selectionType typeId="d7a08f0e-e1f9-4256-8ca7-02fb4e72e45a" valueTypeId="31bea7db-58ad-4c2e-be43-737d3065e46b"/>
+    <listType typeId="b43a379f-f9ef-43f2-ac37-6348d0d93eec" valueTypeId="2665b921-ee19-4cb7-88f6-4bf4b6f83997"/>
+    <managerType typeId="ee062cac-5e3b-4d85-8333-a2defb30699f" valueTypeId="a4af7f4a-0aae-48f1-8778-d63d1a25515e"/>
+    <recordSetType typeId="4fe95fb2-5ee8-471f-a624-40dc2218046f" valueTypeId="0a35a0e0-bb1b-4fcf-9009-ea67ccc59a03"/>
+    <recordKeyType typeId="b4cf51b7-e785-4f88-9b1f-0802becf7cc2" valueTypeId="88289bcd-b1ae-4952-8032-a54c1df82a30"/>
+    <recordType typeId="61f43391-2fc8-41ba-8e4c-8f2c27587f6c" valueTypeId="4d631fe1-bf26-4c74-a8bf-88fe42369497"/>
+  </producedTypes>
+  <name>mega_ПроизводственныеЗапасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные запасы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="daa13d15-4681-41ca-81e2-a02041f274da">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d4d6292e-14db-4403-ba25-abe06c0557fe">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0e1c171e-686d-412c-a1b0-3d7e2694ee25">
+    <name>ВидСтадииОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стадии обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

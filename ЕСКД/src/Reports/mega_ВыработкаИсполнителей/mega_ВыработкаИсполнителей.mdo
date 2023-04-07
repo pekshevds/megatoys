@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73b69589-377a-4b18-bf17-c27e6cb29073">
+  <producedTypes>
+    <objectType typeId="f2c5a53a-c596-48e3-80f1-5a1139f12df2" valueTypeId="e5915e6f-a1a6-4c05-924f-307c84f46cf4"/>
+    <managerType typeId="64c27c3a-8e15-4509-84ec-0553e2f9bb51" valueTypeId="725258ad-8964-4579-96a7-66c77da134c5"/>
+  </producedTypes>
+  <name>mega_ВыработкаИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.mega_ВыработкаИсполнителей.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Выработка исполнителей</value>
+  </extendedPresentation>
+  <templates uuid="de08ef5a-47f4-44fc-8519-8f1d063fa896">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

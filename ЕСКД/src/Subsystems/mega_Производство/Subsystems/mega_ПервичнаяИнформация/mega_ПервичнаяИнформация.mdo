@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ee8a282-0a80-43de-994a-e525ce46ca30">
+  <name>mega_ПервичнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первичная информация (документы)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.mega_ПриходРесурсов</content>
+  <content>Document.mega_ПередачаНаСклад</content>
+  <content>Document.mega_ПроизводственнаяОперация</content>
+  <content>Document.mega_КорректировкаВидаСтадииОбработки</content>
+  <content>Document.mega_ПланПроизводства</content>
+  <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
+</mdclass:Subsystem>

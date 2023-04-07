@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eee59855-bcb8-4d7f-bba6-ac3a9164373b">
+  <name>mega_НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно-справочная информация (справочники)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.mega_КлассификаторЕдиницИзмерения</content>
+  <content>Catalog.mega_Номенклатура</content>
+  <content>Catalog.mega_Спецификации</content>
+  <content>Catalog.mega_ВидыМатериалов</content>
+  <content>Catalog.mega_ВидыДеталей</content>
+  <content>Catalog.mega_ВидыСтадийОбработки</content>
+  <content>Catalog.mega_ПроизводственныеРесурсы</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
+</mdclass:Subsystem>

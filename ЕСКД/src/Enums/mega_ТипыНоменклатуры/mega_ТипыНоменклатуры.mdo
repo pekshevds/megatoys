@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d54cb816-1760-4aef-a055-1eb629d6c727">
+  <producedTypes>
+    <refType typeId="0a5b51dc-ad68-4a89-9311-5791dae7e6b1" valueTypeId="43074bef-0d1f-4928-a0a1-05a4d7d79ae7"/>
+    <listType typeId="6401b997-bc34-4618-be2a-a7c746304bea" valueTypeId="3aa35b06-9402-4d39-b0e1-575cf2c2ef8b"/>
+    <managerType typeId="06d5be8d-228d-4af5-acce-6986722904f7" valueTypeId="7852c531-d7f4-4a91-b556-35b9f85c655d"/>
+  </producedTypes>
+  <name>mega_ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c9fba50-f516-4215-8712-64a61b7f3d15">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="138b402f-dc10-4c87-96b0-a0799a90df4f">
+    <name>Полуфабрикат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полуфабрикат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="490a0680-6fbc-42b3-9f7d-7307307b0c74">
+    <name>Деталь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деталь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2b9cb7b-e62e-4437-92a3-3929e1184233">
+    <name>ГотоваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовая продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5ab9246-e63e-4840-b7d4-26cd2b89984f">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
