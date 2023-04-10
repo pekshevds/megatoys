@@ -98,6 +98,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="fca7d88b-2061-48ec-a093-e550c6ce7ad9">
+    <name>ДатаНачалаПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала планирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="64f27ebf-6f75-4b7b-8e03-2b4599eebe0d">
     <name>ФормаДокумента</name>
     <synonym>
