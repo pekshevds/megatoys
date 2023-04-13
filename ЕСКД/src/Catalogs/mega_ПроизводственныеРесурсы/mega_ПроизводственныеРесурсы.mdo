@@ -35,7 +35,7 @@
     <name>Время</name>
     <synonym>
       <key>ru</key>
-      <value>Время</value>
+      <value>Время, ч.</value>
     </synonym>
     <type>
       <types>DefinedType.mega_ВремяВСекундах</types>
@@ -77,7 +77,7 @@
       <name>Время</name>
       <synonym>
         <key>ru</key>
-        <value>Время</value>
+        <value>Время, ч.</value>
       </synonym>
       <type>
         <types>DefinedType.mega_ВремяВСекундах</types>
