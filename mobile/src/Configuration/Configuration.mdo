@@ -38,4 +38,13 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбщийМодульВызовСервера</commonModules>
+  <constants>Constant.base</constants>
+  <constants>Constant.host</constants>
+  <constants>Constant.login</constants>
+  <constants>Constant.password</constants>
+  <constants>Constant.port</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <dataProcessors>DataProcessor.Desktop</dataProcessors>
+  <informationRegisters>InformationRegister.Спецификации</informationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27266eb-7551-4ed9-9e39-173c2090ab41">
+  <producedTypes>
+    <managerType typeId="3d049844-b903-4050-97ba-1526331b4978" valueTypeId="31a1bd97-72b1-4fe6-9951-6261fc9e81dc"/>
+    <valueManagerType typeId="98d63eda-eed8-4fd8-a2ce-a5b0718727c5" valueTypeId="df7ee5da-c58c-4282-9db7-db68848159aa"/>
+    <valueKeyType typeId="06387eac-7c9d-4c47-8514-512466d3998c" valueTypeId="ade13332-3831-4e8a-8c96-3136dabb23c6"/>
+  </producedTypes>
+  <name>port</name>
+  <synonym>
+    <key>ru</key>
+    <value>Port</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

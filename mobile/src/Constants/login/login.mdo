@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4ae17fd-bbdb-4d87-a807-a5330e958697">
+  <producedTypes>
+    <managerType typeId="ebbda4f2-2524-4601-b2f4-8fc0b32c331f" valueTypeId="4e73ee03-f344-47d7-a3a9-aafc97addc20"/>
+    <valueManagerType typeId="6ff2d313-b7fc-4acb-884f-da71e85ae8b3" valueTypeId="6a6e94b2-bad6-483d-9b35-b84bc8ebd90d"/>
+    <valueKeyType typeId="bc8aaf1f-dd5b-4157-bffb-9623f9ef9d52" valueTypeId="77ed9e48-c051-4aa0-ba5e-5b4fc273014d"/>
+  </producedTypes>
+  <name>login</name>
+  <synonym>
+    <key>ru</key>
+    <value>Login</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
