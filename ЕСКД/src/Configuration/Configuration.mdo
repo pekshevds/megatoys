@@ -1335,6 +1335,7 @@
   <webServices>WebService.RemoteAdministrationOfExchange_2_1_6_1</webServices>
   <webServices>WebService.RemoteAdministrationOfExchange_2_4_5_1</webServices>
   <webServices>WebService.RemoteControl</webServices>
+  <httpServices>HTTPService.mega_ОбменСМобильнымУстройством</httpServices>
   <eventSubscriptions>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхДокумент</eventSubscriptions>
   <eventSubscriptions>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхКонстанта</eventSubscriptions>

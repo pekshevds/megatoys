@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="790911db-2c6c-4ec6-89c8-3eeefb0c22aa">
+  <name>mega_ОбменСМобильнымУстройством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным устройством</value>
+  </synonym>
+  <rootURL>exchange</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="f512ac50-e396-4cbe-b91e-cb7e150d4305">
+    <name>test</name>
+    <synonym>
+      <key>ru</key>
+      <value>test</value>
+    </synonym>
+    <template>/api/v1/test</template>
+    <methods uuid="9441d144-b5cf-4ab4-a448-e35afb2501cb">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>testGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="3d08d779-4a8d-4a8c-97b6-edf003da88a2">
+    <name>specifications</name>
+    <synonym>
+      <key>ru</key>
+      <value>Specifications</value>
+    </synonym>
+    <template>/api/v1/specifications</template>
+    <methods uuid="2a327e28-2a6b-431d-91d9-f6bf59b0e8ab">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>specificationsGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
