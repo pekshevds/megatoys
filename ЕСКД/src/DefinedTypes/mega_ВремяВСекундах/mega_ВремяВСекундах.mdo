@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d392c69-231c-4e9a-9eae-32a4122ab227">
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aacda24-07ef-4ad3-99d2-17b729f7526e">
   <producedTypes>
-    <containerType typeId="fd2fc2ee-41e1-4fb3-9fa3-56cad5b1026d" valueTypeId="bb83bb7a-809a-4792-8a88-8898b57f433c"/>
+    <containerType typeId="732c39f6-9130-48b5-88dd-a8a7998728ab" valueTypeId="7ed62f33-4ffd-4a2a-a99f-6814866c8d9f"/>
   </producedTypes>
   <name>mega_ВремяВСекундах</name>
   <synonym>

@@ -276,7 +276,7 @@
         <value>Время выполнения (мин,сек)</value>
       </synonym>
       <type>
-        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+        <types>DefinedType.mega_ВремяВСекундах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

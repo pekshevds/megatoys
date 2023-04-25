@@ -1603,8 +1603,9 @@
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
   <definedTypes>DefinedType.mega_КоличественнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.mega_КоличественнаяСуммаНеотрицательная</definedTypes>
-  <definedTypes>DefinedType.mega_ВремяВСекундах</definedTypes>
+  <definedTypes>DefinedType.mega_ВремяВЧасах</definedTypes>
   <definedTypes>DefinedType.mega_КоличественнаяСуммаЦелаяНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.mega_ВремяВСекундах</definedTypes>
   <commonCommands>CommonCommand.АвтономнаяРабота</commonCommands>
   <commonCommands>CommonCommand.АвтономнаяРаботаВМоделиСервиса</commonCommands>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>

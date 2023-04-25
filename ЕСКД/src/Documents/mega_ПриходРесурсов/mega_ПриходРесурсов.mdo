@@ -212,7 +212,7 @@
         <value>Время1</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -226,7 +226,7 @@
         <value>Время2</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -240,7 +240,7 @@
         <value>Время3</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -254,7 +254,7 @@
         <value>Время4</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -268,7 +268,7 @@
         <value>Время5</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -282,7 +282,7 @@
         <value>Время6</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -296,7 +296,7 @@
         <value>Время7</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -310,7 +310,7 @@
         <value>Время8</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -324,7 +324,7 @@
         <value>Время9</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -338,7 +338,7 @@
         <value>Время10</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -352,7 +352,7 @@
         <value>Время11</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -366,7 +366,7 @@
         <value>Время12</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -380,7 +380,7 @@
         <value>Время13</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -394,7 +394,7 @@
         <value>Время14</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -408,7 +408,7 @@
         <value>Время15</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -422,7 +422,7 @@
         <value>Время16</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -436,7 +436,7 @@
         <value>Время17</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -450,7 +450,7 @@
         <value>Время18</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -464,7 +464,7 @@
         <value>Время19</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -478,7 +478,7 @@
         <value>Время20</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -492,7 +492,7 @@
         <value>Время21</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -506,7 +506,7 @@
         <value>Время22</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -520,7 +520,7 @@
         <value>Время23</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -534,7 +534,7 @@
         <value>Время24</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -548,7 +548,7 @@
         <value>Время25</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -562,7 +562,7 @@
         <value>Время26</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -576,7 +576,7 @@
         <value>Время27</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -590,7 +590,7 @@
         <value>Время28</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -604,7 +604,7 @@
         <value>Время29</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -618,7 +618,7 @@
         <value>Время30</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -632,7 +632,7 @@
         <value>Время31</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -646,7 +646,7 @@
         <value>Время32</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -660,7 +660,7 @@
         <value>Время33</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -674,7 +674,7 @@
         <value>Время34</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -688,7 +688,7 @@
         <value>Время35</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -702,7 +702,7 @@
         <value>Время36</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -716,7 +716,7 @@
         <value>Время37</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -730,7 +730,7 @@
         <value>Время38</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -744,7 +744,7 @@
         <value>Время39</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -758,7 +758,7 @@
         <value>Время40</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -772,7 +772,7 @@
         <value>Время41</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -786,7 +786,7 @@
         <value>Время42</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -800,7 +800,7 @@
         <value>Время43</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -814,7 +814,7 @@
         <value>Время44</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -828,7 +828,7 @@
         <value>Время45</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -842,7 +842,7 @@
         <value>Время46</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -856,7 +856,7 @@
         <value>Время47</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -870,7 +870,7 @@
         <value>Время48</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -884,7 +884,7 @@
         <value>Время49</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -898,7 +898,7 @@
         <value>Время50</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -912,7 +912,7 @@
         <value>Время51</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -926,7 +926,7 @@
         <value>Время52</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -940,7 +940,7 @@
         <value>Время53</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -954,7 +954,7 @@
         <value>Время54</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -968,7 +968,7 @@
         <value>Время55</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -982,7 +982,7 @@
         <value>Время56</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -996,7 +996,7 @@
         <value>Время57</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1010,7 +1010,7 @@
         <value>Время58</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1024,7 +1024,7 @@
         <value>Время59</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1038,7 +1038,7 @@
         <value>Время60</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1052,7 +1052,7 @@
         <value>Время61</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1066,7 +1066,7 @@
         <value>Время62</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1080,7 +1080,7 @@
         <value>Время63</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1094,7 +1094,7 @@
         <value>Время64</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1108,7 +1108,7 @@
         <value>Время65</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1122,7 +1122,7 @@
         <value>Время66</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1136,7 +1136,7 @@
         <value>Время67</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1150,7 +1150,7 @@
         <value>Время68</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1164,7 +1164,7 @@
         <value>Время69</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1178,7 +1178,7 @@
         <value>Время70</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1192,7 +1192,7 @@
         <value>Время71</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1206,7 +1206,7 @@
         <value>Время72</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1220,7 +1220,7 @@
         <value>Время73</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1234,7 +1234,7 @@
         <value>Время74</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1248,7 +1248,7 @@
         <value>Время75</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1262,7 +1262,7 @@
         <value>Время76</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1276,7 +1276,7 @@
         <value>Время77</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1290,7 +1290,7 @@
         <value>Время78</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1304,7 +1304,7 @@
         <value>Время79</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1318,7 +1318,7 @@
         <value>Время80</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1332,7 +1332,7 @@
         <value>Время81</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1346,7 +1346,7 @@
         <value>Время82</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1360,7 +1360,7 @@
         <value>Время83</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1374,7 +1374,7 @@
         <value>Время84</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1388,7 +1388,7 @@
         <value>Время85</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1402,7 +1402,7 @@
         <value>Время86</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1416,7 +1416,7 @@
         <value>Время87</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1430,7 +1430,7 @@
         <value>Время88</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1444,7 +1444,7 @@
         <value>Время89</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1458,7 +1458,7 @@
         <value>Время90</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1472,7 +1472,7 @@
         <value>Время91</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1486,7 +1486,7 @@
         <value>Время92</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1500,7 +1500,7 @@
         <value>Время93</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1514,7 +1514,7 @@
         <value>Время94</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1528,7 +1528,7 @@
         <value>Время95</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1542,7 +1542,7 @@
         <value>Время96</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1556,7 +1556,7 @@
         <value>Время97</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1570,7 +1570,7 @@
         <value>Время98</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1584,7 +1584,7 @@
         <value>Время99</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1598,7 +1598,7 @@
         <value>Время100</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1612,7 +1612,7 @@
         <value>Время101</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1626,7 +1626,7 @@
         <value>Время102</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1640,7 +1640,7 @@
         <value>Время103</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1654,7 +1654,7 @@
         <value>Время104</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1668,7 +1668,7 @@
         <value>Время105</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1682,7 +1682,7 @@
         <value>Время106</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1696,7 +1696,7 @@
         <value>Время107</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1710,7 +1710,7 @@
         <value>Время108</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1724,7 +1724,7 @@
         <value>Время109</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1738,7 +1738,7 @@
         <value>Время110</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1752,7 +1752,7 @@
         <value>Время111</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1766,7 +1766,7 @@
         <value>Время112</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1780,7 +1780,7 @@
         <value>Время113</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1794,7 +1794,7 @@
         <value>Время114</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1808,7 +1808,7 @@
         <value>Время115</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1822,7 +1822,7 @@
         <value>Время116</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1836,7 +1836,7 @@
         <value>Время117</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1850,7 +1850,7 @@
         <value>Время118</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1864,7 +1864,7 @@
         <value>Время119</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1878,7 +1878,7 @@
         <value>Время120</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1892,7 +1892,7 @@
         <value>Время121</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1906,7 +1906,7 @@
         <value>Время122</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1920,7 +1920,7 @@
         <value>Время123</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1934,7 +1934,7 @@
         <value>Время124</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1948,7 +1948,7 @@
         <value>Время125</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1962,7 +1962,7 @@
         <value>Время126</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1976,7 +1976,7 @@
         <value>Время127</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1990,7 +1990,7 @@
         <value>Время128</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2004,7 +2004,7 @@
         <value>Время129</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2018,7 +2018,7 @@
         <value>Время130</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2032,7 +2032,7 @@
         <value>Время131</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2046,7 +2046,7 @@
         <value>Время132</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2060,7 +2060,7 @@
         <value>Время133</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2074,7 +2074,7 @@
         <value>Время134</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2088,7 +2088,7 @@
         <value>Время135</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2102,7 +2102,7 @@
         <value>Время136</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2116,7 +2116,7 @@
         <value>Время137</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2130,7 +2130,7 @@
         <value>Время138</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2144,7 +2144,7 @@
         <value>Время139</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2158,7 +2158,7 @@
         <value>Время140</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2172,7 +2172,7 @@
         <value>Время141</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2186,7 +2186,7 @@
         <value>Время142</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2200,7 +2200,7 @@
         <value>Время143</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2214,7 +2214,7 @@
         <value>Время144</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2228,7 +2228,7 @@
         <value>Время145</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2242,7 +2242,7 @@
         <value>Время146</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2256,7 +2256,7 @@
         <value>Время147</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2270,7 +2270,7 @@
         <value>Время148</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2284,7 +2284,7 @@
         <value>Время149</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2298,7 +2298,7 @@
         <value>Время150</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2312,7 +2312,7 @@
         <value>Время151</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2326,7 +2326,7 @@
         <value>Время152</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2340,7 +2340,7 @@
         <value>Время153</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2354,7 +2354,7 @@
         <value>Время154</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2368,7 +2368,7 @@
         <value>Время155</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2382,7 +2382,7 @@
         <value>Время156</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2396,7 +2396,7 @@
         <value>Время157</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2410,7 +2410,7 @@
         <value>Время158</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2424,7 +2424,7 @@
         <value>Время159</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2438,7 +2438,7 @@
         <value>Время160</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2452,7 +2452,7 @@
         <value>Время161</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2466,7 +2466,7 @@
         <value>Время162</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2480,7 +2480,7 @@
         <value>Время163</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2494,7 +2494,7 @@
         <value>Время164</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2508,7 +2508,7 @@
         <value>Время165</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2522,7 +2522,7 @@
         <value>Время166</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2536,7 +2536,7 @@
         <value>Время167</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2550,7 +2550,7 @@
         <value>Время168</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2564,7 +2564,7 @@
         <value>Время169</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2578,7 +2578,7 @@
         <value>Время170</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2592,7 +2592,7 @@
         <value>Время171</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2606,7 +2606,7 @@
         <value>Время172</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2620,7 +2620,7 @@
         <value>Время173</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2634,7 +2634,7 @@
         <value>Время174</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2648,7 +2648,7 @@
         <value>Время175</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2662,7 +2662,7 @@
         <value>Время176</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2676,7 +2676,7 @@
         <value>Время177</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2690,7 +2690,7 @@
         <value>Время178</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2704,7 +2704,7 @@
         <value>Время179</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2718,7 +2718,7 @@
         <value>Время180</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2732,7 +2732,7 @@
         <value>Время181</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2746,7 +2746,7 @@
         <value>Время182</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2760,7 +2760,7 @@
         <value>Время183</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2774,7 +2774,7 @@
         <value>Время184</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2788,7 +2788,7 @@
         <value>Время185</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2802,7 +2802,7 @@
         <value>Время186</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2816,7 +2816,7 @@
         <value>Время187</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2830,7 +2830,7 @@
         <value>Время188</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2844,7 +2844,7 @@
         <value>Время189</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2858,7 +2858,7 @@
         <value>Время190</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2872,7 +2872,7 @@
         <value>Время191</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2886,7 +2886,7 @@
         <value>Время192</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2900,7 +2900,7 @@
         <value>Время193</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2914,7 +2914,7 @@
         <value>Время194</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2928,7 +2928,7 @@
         <value>Время195</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2942,7 +2942,7 @@
         <value>Время196</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2956,7 +2956,7 @@
         <value>Время197</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2970,7 +2970,7 @@
         <value>Время198</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2984,7 +2984,7 @@
         <value>Время199</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -2998,7 +2998,7 @@
         <value>Время200</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3012,7 +3012,7 @@
         <value>Время201</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3026,7 +3026,7 @@
         <value>Время202</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3040,7 +3040,7 @@
         <value>Время203</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3054,7 +3054,7 @@
         <value>Время204</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3068,7 +3068,7 @@
         <value>Время205</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3082,7 +3082,7 @@
         <value>Время206</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3096,7 +3096,7 @@
         <value>Время207</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3110,7 +3110,7 @@
         <value>Время208</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3124,7 +3124,7 @@
         <value>Время209</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3138,7 +3138,7 @@
         <value>Время210</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3152,7 +3152,7 @@
         <value>Время211</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3166,7 +3166,7 @@
         <value>Время212</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3180,7 +3180,7 @@
         <value>Время213</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3194,7 +3194,7 @@
         <value>Время214</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3208,7 +3208,7 @@
         <value>Время215</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3222,7 +3222,7 @@
         <value>Время216</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3236,7 +3236,7 @@
         <value>Время217</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3250,7 +3250,7 @@
         <value>Время218</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3264,7 +3264,7 @@
         <value>Время219</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3278,7 +3278,7 @@
         <value>Время220</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3292,7 +3292,7 @@
         <value>Время221</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3306,7 +3306,7 @@
         <value>Время222</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3320,7 +3320,7 @@
         <value>Время223</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3334,7 +3334,7 @@
         <value>Время224</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3348,7 +3348,7 @@
         <value>Время225</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3362,7 +3362,7 @@
         <value>Время226</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3376,7 +3376,7 @@
         <value>Время227</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3390,7 +3390,7 @@
         <value>Время228</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3404,7 +3404,7 @@
         <value>Время229</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3418,7 +3418,7 @@
         <value>Время230</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3432,7 +3432,7 @@
         <value>Время231</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3446,7 +3446,7 @@
         <value>Время232</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3460,7 +3460,7 @@
         <value>Время233</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3474,7 +3474,7 @@
         <value>Время234</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3488,7 +3488,7 @@
         <value>Время235</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3502,7 +3502,7 @@
         <value>Время236</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3516,7 +3516,7 @@
         <value>Время237</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3530,7 +3530,7 @@
         <value>Время238</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3544,7 +3544,7 @@
         <value>Время239</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3558,7 +3558,7 @@
         <value>Время240</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3572,7 +3572,7 @@
         <value>Время241</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3586,7 +3586,7 @@
         <value>Время242</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3600,7 +3600,7 @@
         <value>Время243</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3614,7 +3614,7 @@
         <value>Время244</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3628,7 +3628,7 @@
         <value>Время245</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3642,7 +3642,7 @@
         <value>Время246</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3656,7 +3656,7 @@
         <value>Время247</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3670,7 +3670,7 @@
         <value>Время248</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3684,7 +3684,7 @@
         <value>Время249</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3698,7 +3698,7 @@
         <value>Время250</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3712,7 +3712,7 @@
         <value>Время251</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3726,7 +3726,7 @@
         <value>Время252</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3740,7 +3740,7 @@
         <value>Время253</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3754,7 +3754,7 @@
         <value>Время254</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3768,7 +3768,7 @@
         <value>Время255</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3782,7 +3782,7 @@
         <value>Время256</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3796,7 +3796,7 @@
         <value>Время257</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3810,7 +3810,7 @@
         <value>Время258</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3824,7 +3824,7 @@
         <value>Время259</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3838,7 +3838,7 @@
         <value>Время260</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3852,7 +3852,7 @@
         <value>Время261</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3866,7 +3866,7 @@
         <value>Время262</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3880,7 +3880,7 @@
         <value>Время263</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3894,7 +3894,7 @@
         <value>Время264</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3908,7 +3908,7 @@
         <value>Время265</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3922,7 +3922,7 @@
         <value>Время266</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3936,7 +3936,7 @@
         <value>Время267</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3950,7 +3950,7 @@
         <value>Время268</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3964,7 +3964,7 @@
         <value>Время269</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3978,7 +3978,7 @@
         <value>Время270</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -3992,7 +3992,7 @@
         <value>Время271</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4006,7 +4006,7 @@
         <value>Время272</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4020,7 +4020,7 @@
         <value>Время273</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4034,7 +4034,7 @@
         <value>Время274</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4048,7 +4048,7 @@
         <value>Время275</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4062,7 +4062,7 @@
         <value>Время276</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4076,7 +4076,7 @@
         <value>Время277</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4090,7 +4090,7 @@
         <value>Время278</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4104,7 +4104,7 @@
         <value>Время279</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4118,7 +4118,7 @@
         <value>Время280</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4132,7 +4132,7 @@
         <value>Время281</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4146,7 +4146,7 @@
         <value>Время282</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4160,7 +4160,7 @@
         <value>Время283</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4174,7 +4174,7 @@
         <value>Время284</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4188,7 +4188,7 @@
         <value>Время285</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4202,7 +4202,7 @@
         <value>Время286</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4216,7 +4216,7 @@
         <value>Время287</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4230,7 +4230,7 @@
         <value>Время288</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4244,7 +4244,7 @@
         <value>Время289</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4258,7 +4258,7 @@
         <value>Время290</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4272,7 +4272,7 @@
         <value>Время291</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4286,7 +4286,7 @@
         <value>Время292</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4300,7 +4300,7 @@
         <value>Время293</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4314,7 +4314,7 @@
         <value>Время294</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4328,7 +4328,7 @@
         <value>Время295</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4342,7 +4342,7 @@
         <value>Время296</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4356,7 +4356,7 @@
         <value>Время297</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4370,7 +4370,7 @@
         <value>Время298</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4384,7 +4384,7 @@
         <value>Время299</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4398,7 +4398,7 @@
         <value>Время300</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4412,7 +4412,7 @@
         <value>Время301</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4426,7 +4426,7 @@
         <value>Время302</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4440,7 +4440,7 @@
         <value>Время303</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4454,7 +4454,7 @@
         <value>Время304</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4468,7 +4468,7 @@
         <value>Время305</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4482,7 +4482,7 @@
         <value>Время306</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4496,7 +4496,7 @@
         <value>Время307</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4510,7 +4510,7 @@
         <value>Время308</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4524,7 +4524,7 @@
         <value>Время309</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4538,7 +4538,7 @@
         <value>Время310</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4552,7 +4552,7 @@
         <value>Время311</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4566,7 +4566,7 @@
         <value>Время312</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4580,7 +4580,7 @@
         <value>Время313</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4594,7 +4594,7 @@
         <value>Время314</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4608,7 +4608,7 @@
         <value>Время315</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4622,7 +4622,7 @@
         <value>Время316</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4636,7 +4636,7 @@
         <value>Время317</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4650,7 +4650,7 @@
         <value>Время318</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4664,7 +4664,7 @@
         <value>Время319</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4678,7 +4678,7 @@
         <value>Время320</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4692,7 +4692,7 @@
         <value>Время321</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4706,7 +4706,7 @@
         <value>Время322</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4720,7 +4720,7 @@
         <value>Время323</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4734,7 +4734,7 @@
         <value>Время324</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4748,7 +4748,7 @@
         <value>Время325</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4762,7 +4762,7 @@
         <value>Время326</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4776,7 +4776,7 @@
         <value>Время327</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4790,7 +4790,7 @@
         <value>Время328</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4804,7 +4804,7 @@
         <value>Время329</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4818,7 +4818,7 @@
         <value>Время330</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4832,7 +4832,7 @@
         <value>Время331</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4846,7 +4846,7 @@
         <value>Время332</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4860,7 +4860,7 @@
         <value>Время333</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4874,7 +4874,7 @@
         <value>Время334</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4888,7 +4888,7 @@
         <value>Время335</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4902,7 +4902,7 @@
         <value>Время336</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4916,7 +4916,7 @@
         <value>Время337</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4930,7 +4930,7 @@
         <value>Время338</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4944,7 +4944,7 @@
         <value>Время339</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4958,7 +4958,7 @@
         <value>Время340</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4972,7 +4972,7 @@
         <value>Время341</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -4986,7 +4986,7 @@
         <value>Время342</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5000,7 +5000,7 @@
         <value>Время343</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5014,7 +5014,7 @@
         <value>Время344</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5028,7 +5028,7 @@
         <value>Время345</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5042,7 +5042,7 @@
         <value>Время346</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5056,7 +5056,7 @@
         <value>Время347</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5070,7 +5070,7 @@
         <value>Время348</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5084,7 +5084,7 @@
         <value>Время349</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5098,7 +5098,7 @@
         <value>Время350</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5112,7 +5112,7 @@
         <value>Время351</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5126,7 +5126,7 @@
         <value>Время352</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5140,7 +5140,7 @@
         <value>Время353</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5154,7 +5154,7 @@
         <value>Время354</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5168,7 +5168,7 @@
         <value>Время355</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5182,7 +5182,7 @@
         <value>Время356</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5196,7 +5196,7 @@
         <value>Время357</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5210,7 +5210,7 @@
         <value>Время358</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5224,7 +5224,7 @@
         <value>Время359</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5238,7 +5238,7 @@
         <value>Время360</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5252,7 +5252,7 @@
         <value>Время361</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5266,7 +5266,7 @@
         <value>Время362</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5280,7 +5280,7 @@
         <value>Время363</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5294,7 +5294,7 @@
         <value>Время364</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5308,7 +5308,7 @@
         <value>Время365</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -5322,7 +5322,7 @@
         <value>Время366</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

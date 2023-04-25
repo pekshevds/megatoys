@@ -38,7 +38,7 @@
       <value>Время, ч.</value>
     </synonym>
     <type>
-      <types>DefinedType.mega_ВремяВСекундах</types>
+      <types>DefinedType.mega_ВремяВЧасах</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -80,7 +80,7 @@
         <value>Время, ч.</value>
       </synonym>
       <type>
-        <types>DefinedType.mega_ВремяВСекундах</types>
+        <types>DefinedType.mega_ВремяВЧасах</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
