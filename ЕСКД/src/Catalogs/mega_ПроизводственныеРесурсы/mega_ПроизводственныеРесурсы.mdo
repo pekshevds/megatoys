@@ -46,6 +46,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1fe1d645-7ada-49e4-b60e-f6c048011545">
+    <name>НачалоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="7f5676f8-fa3d-4978-b3df-cf253140054d">
     <producedTypes>
       <objectType typeId="2d421bfb-8b52-4649-95ee-90fec28bde8c" valueTypeId="d7479da4-80f5-4d15-907d-3e373faa3497"/>
