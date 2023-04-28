@@ -45,6 +45,8 @@
   <constants>Constant.password</constants>
   <constants>Constant.port</constants>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <documents>Document.ПроизводственнаяОперация</documents>
   <dataProcessors>DataProcessor.Desktop</dataProcessors>
+  <informationRegisters>InformationRegister.Пользователи</informationRegisters>
   <informationRegisters>InformationRegister.Спецификации</informationRegisters>
 </mdclass:Configuration>

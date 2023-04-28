@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="526c0f1e-8a7a-46ed-8e95-5c92c43f1d25">
+  <producedTypes>
+    <selectionType typeId="b6a40d47-6813-4e7a-bcca-6c8426885d95" valueTypeId="ca52df4c-d29e-4f6c-9d1e-eeb3042ecc9f"/>
+    <listType typeId="2a367fa8-21aa-47d6-a999-5650585bc298" valueTypeId="1621ef8b-526e-4e96-8880-469eb76676cc"/>
+    <managerType typeId="616ddb6f-f896-4f40-8982-0e521ac78dbf" valueTypeId="358475fc-3c39-44ed-bc33-d560feecb2ef"/>
+    <recordSetType typeId="b24b9378-166d-4498-b8fb-877f7a4524b3" valueTypeId="a17b18c5-4373-48f5-9219-a7d3d81cb904"/>
+    <recordKeyType typeId="c551e59b-8bf9-443b-a521-b45d54e0b4a0" valueTypeId="ef1ec73e-a09d-4ab1-8ab0-f7fe0adc0dc3"/>
+    <recordType typeId="fdd8066c-9ea4-4b52-8170-b3f6bcfc29c8" valueTypeId="45c31460-b4b0-46e3-8b37-0e8789ee8864"/>
+    <recordManagerType typeId="066f9777-4604-4097-bc6a-152ae44ee826" valueTypeId="63676c9d-fb8b-4372-9f0f-9941450008df"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="5e6c0cb1-5f77-48f4-a026-3ebbe0b223bb">
+    <name>user_name</name>
+    <synonym>
+      <key>ru</key>
+      <value>User name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1b2cf7cd-b27b-4fd4-bf3c-1eb74ba87ab8">
+    <name>user_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>User id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
