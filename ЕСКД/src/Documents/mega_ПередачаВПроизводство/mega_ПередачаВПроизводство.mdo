@@ -58,6 +58,10 @@
   </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Передачи в производство</value>
+  </listPresentation>
   <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>11</numberLength>

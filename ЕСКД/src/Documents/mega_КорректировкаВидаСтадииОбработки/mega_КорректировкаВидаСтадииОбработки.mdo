@@ -17,6 +17,10 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Корректировки видов стадий обработки</value>
+  </listPresentation>
   <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>11</numberLength>

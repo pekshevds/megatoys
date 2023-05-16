@@ -17,6 +17,10 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приходы ресурсов</value>
+  </listPresentation>
   <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
