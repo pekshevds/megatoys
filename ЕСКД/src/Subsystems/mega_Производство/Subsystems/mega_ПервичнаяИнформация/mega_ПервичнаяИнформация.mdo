@@ -12,5 +12,6 @@
   <content>Document.mega_ПроизводственнаяОперация</content>
   <content>Document.mega_КорректировкаВидаСтадииОбработки</content>
   <content>Document.mega_ПланПроизводства</content>
+  <content>Document.mega_СменноеЗадание</content>
   <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7091a8fe-0888-421c-aa13-62cdbe2d9bcf">
+  <producedTypes>
+    <objectType typeId="4645d529-49d4-4d92-a159-450442b52ca7" valueTypeId="588c3af0-90fa-4585-b0c4-c5ee7710ccc9"/>
+    <refType typeId="0b0b014a-bb25-4442-affe-b8e3481779a1" valueTypeId="1ca43d34-e59b-4732-b608-37bdaec24c07"/>
+    <selectionType typeId="22a6829b-dce3-4ec9-876b-d82800b27ddf" valueTypeId="1f951ea5-3cae-4e55-ac5d-368e80b29599"/>
+    <listType typeId="7ebb6dbf-428a-4bdc-8e6c-2f3672d06cab" valueTypeId="b99fea16-aaa0-4d0a-952a-f3b7e9652e96"/>
+    <managerType typeId="27179627-57f3-442f-95d9-b987ba28ee3e" valueTypeId="3c880086-f31c-498f-9a89-199fd2b5e6d0"/>
+  </producedTypes>
+  <name>mega_СменноеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сменное задание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.mega_СменноеЗадание.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.mega_СменноеЗадание.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_СменноеЗадание.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6f8bcd5e-4854-4607-ad51-4871f8443c8f">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший встречу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02e6c956-4954-45bd-b5bf-6eda1a527835">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за работу по встрече</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a808b9f4-4ea3-46ea-b489-44d1b6ebd419">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="520bdcd3-ed52-4428-b482-55d882b31969">
+    <name>ПроизводственныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственный ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ПроизводственныеРесурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ca62a0c3-4bb6-4188-b0cd-926037307f60">
+    <name>ДатаСмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата смены</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75e4bafc-6c22-46a0-9833-d30d8f3ca84b">
+    <name>ПланПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>План производства</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.mega_ПланПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6c47a9ca-7de3-474e-ba50-a5c467622679">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc2023f1-4ed7-4d8f-949b-752f2f3520d8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="8dfcdf69-09f1-47cf-9492-bfb769e63213">
+    <producedTypes>
+      <objectType typeId="2f93cd86-0351-4557-9e04-b4c77cd9b6e5" valueTypeId="61f83a3b-e5a3-4dd6-9dea-f86d73911f87"/>
+      <rowType typeId="eb5c2d3d-cfc8-42c9-84a3-6655657da617" valueTypeId="2e70ecb9-8e35-4c60-9594-62e41920f0e5"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="241d7751-817d-4117-93ca-cafd6deeb401">
+      <name>ТехнологическаяОперация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Технологическая операция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.mega_ТипыНоменклатуры.EnumValue.Операция</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51588a89-ba81-4362-9435-7cb816f7ad28">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.mega_СменноеЗадание.TabularSection.Состав.Attribute.ТехнологическаяОперация</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e55077c2-f086-43d9-8fcc-73751c9ad6cf">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f299f836-c1ba-42cb-8930-31e068a39d08">
+      <name>ВремяВыполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время выполнения</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_ВремяВСекундах</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4409c0a0-00e7-4fd6-bf19-7f97e06df165">
+      <name>ВидСтадииОбработки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид стадии обработки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="731b604d-c04f-4345-b56d-17025a9b6e76">
+      <name>Спецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спецификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_Спецификации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="4a96507d-616f-4e04-a326-361f6b7ceb9e">
+    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

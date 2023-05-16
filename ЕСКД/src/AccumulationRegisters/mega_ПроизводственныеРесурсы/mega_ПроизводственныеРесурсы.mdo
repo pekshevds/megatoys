@@ -74,6 +74,20 @@
     </choiceParameters>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="ce828dad-8fd6-439f-91e5-2867ea6dff12">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="d3674445-ffc3-48ff-8671-a5d3ddd3f43f">
     <name>Ресурс</name>
     <synonym>
