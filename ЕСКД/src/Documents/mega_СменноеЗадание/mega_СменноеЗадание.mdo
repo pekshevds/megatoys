@@ -98,20 +98,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="520bdcd3-ed52-4428-b482-55d882b31969">
-    <name>ПроизводственныйРесурс</name>
-    <synonym>
-      <key>ru</key>
-      <value>Производственный ресурс</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.mega_ПроизводственныеРесурсы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-  </attributes>
   <attributes uuid="ca62a0c3-4bb6-4188-b0cd-926037307f60">
     <name>ДатаСмены</name>
     <synonym>
@@ -183,6 +169,20 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
+    <attributes uuid="5429b974-dd89-48fa-bfe9-aba58ed23a71">
+      <name>ПроизводственныйРесурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производственный ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ПроизводственныеРесурсы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="241d7751-817d-4117-93ca-cafd6deeb401">
       <name>ТехнологическаяОперация</name>
       <synonym>
