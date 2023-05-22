@@ -474,4 +474,18 @@
       <value>П ф MXL пример печатной формы</value>
     </synonym>
   </templates>
+  <templates uuid="327f1d6b-6eec-457b-bfad-9e97571d7835">
+    <name>ПФ_MXL_ВыработкаИсполнителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выработка исполнителей</value>
+    </synonym>
+  </templates>
+  <templates uuid="c1c8a620-f69e-403d-b538-be038e4e8916">
+    <name>ПФ_MXL_Выработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выработка</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
