@@ -271,23 +271,20 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="92e26de6-85d4-41dd-86b7-9b4ad07e841c">
-    <name>ТолщинаДетали</name>
+    <name>ПоказательТолщины</name>
     <synonym>
       <key>ru</key>
-      <value>Толщина, мм</value>
+      <value>Толщина</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:NumberValue">
-      <value>1</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

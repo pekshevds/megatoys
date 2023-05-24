@@ -579,7 +579,7 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ТолщинаДетали</segments>
+              <segments>Объект.ПоказательТолщины</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТолщинаРасширеннаяПодсказка</name>
