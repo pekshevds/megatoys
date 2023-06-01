@@ -10,5 +10,6 @@
   <content>Document.mega_ПриходнаяНакладная</content>
   <content>Document.mega_РасходнаяНакладная</content>
   <content>Document.mega_ПередачаВПроизводство</content>
+  <content>Document.mega_ПотребностьВСырьеИМатериалах</content>
   <parentSubsystem>Subsystem.mrga_Склад</parentSubsystem>
 </mdclass:Subsystem>
