@@ -56,6 +56,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.mega_СменноеЗадание</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <dataHistory>Use</dataHistory>
@@ -137,6 +138,21 @@
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Пользователи.EmptyRef</value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5cb96759-4ba6-4b17-b1a6-732e97c60448">
+    <name>СменноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сменное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.mega_СменноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
