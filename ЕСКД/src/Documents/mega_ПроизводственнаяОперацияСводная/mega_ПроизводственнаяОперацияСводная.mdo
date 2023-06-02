@@ -387,6 +387,102 @@
       <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="8430d8ba-7ae1-4410-bba9-a060766dc26a">
+    <producedTypes>
+      <objectType typeId="8472a22e-5007-48af-a95c-1af7bf1f0092" valueTypeId="82655b49-2195-481c-9601-efbf52f57564"/>
+      <rowType typeId="047dbca1-5a1d-447c-80bb-042167131ecf" valueTypeId="2a3212bb-e631-4bf6-9f08-8bd95cdb1249"/>
+    </producedTypes>
+    <name>МатериалыОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы операций</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="02900313-9be6-41d5-a241-1bc4f031220e">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="aa522c3f-20ee-4fb9-b314-5d047e8f94c1">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e3621758-229f-4350-83c9-5bfcb281f033">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.mega_ПроизводственнаяОперацияСводная.TabularSection.МатериалыОпераций.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d8e1fdb2-cbfd-41c4-b8d5-f91a817ef242">
+      <name>Спецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спецификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_Спецификации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.mega_ПроизводственнаяОперацияСводная.TabularSection.МатериалыОпераций.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc454eff-3e82-417e-81fe-0f9ae5d409bb">
+      <name>КлючСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ связи</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
   <tabularSections uuid="9968d342-6ac4-4edc-a8cf-9d6f53af9edc">
     <producedTypes>
       <objectType typeId="33c0046d-4ff6-4362-9022-33d8e1fc0e6a" valueTypeId="d5dcd18b-6ae3-4e22-8d94-8c7478f468da"/>
@@ -468,19 +564,6 @@
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="6be3fb4c-8ba6-4744-bf7c-6e38df9fab23">
-      <name>КлючСвязи</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ключ связи</value>
-      </synonym>
-      <type>
-        <types>UUID</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>
   <templates uuid="9cd33de8-46d7-4755-9607-970285e1dda1">

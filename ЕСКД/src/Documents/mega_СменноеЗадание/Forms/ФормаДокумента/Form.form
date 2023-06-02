@@ -609,6 +609,10 @@
       <items xsi:type="form:FormField">
         <name>ТехнологическиеОперацииТехнологическаяОперация</name>
         <id>118</id>
+        <title>
+          <key>ru</key>
+          <value>Операция</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
