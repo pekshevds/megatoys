@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e558b4a2-d880-4a08-bdfe-6bbe8f127b60">
+  <producedTypes>
+    <selectionType typeId="12317534-6858-43aa-a8f8-83a19b712222" valueTypeId="5715ff5e-5c63-487c-8494-9c18185442c7"/>
+    <listType typeId="dbec4557-000f-41ff-81f3-4039a9bff6c5" valueTypeId="380a9c76-ed20-4539-b06b-c2f48012eceb"/>
+    <managerType typeId="f2a480c1-1516-486f-8e7e-bc3af9dc1a81" valueTypeId="bdef1145-bc5b-4a10-b717-af4c558e2a8b"/>
+    <recordSetType typeId="3f7f5f69-e124-4279-a8e7-ae5586d29d6d" valueTypeId="aff8f87c-a5c6-40c7-8674-d2b3a0be6a2e"/>
+    <recordKeyType typeId="c94e9154-f472-4a8f-a7fd-fc782b82e7eb" valueTypeId="246c9ee5-fcba-4b33-9489-4a75c27b37f9"/>
+    <recordType typeId="f6f54a7d-200f-4f38-a613-9d4557eec9ce" valueTypeId="1e56291f-de0c-48cc-8850-e38eb8680f66"/>
+    <recordManagerType typeId="a407d549-e4e9-4483-9f2e-b836c8498aab" valueTypeId="3e93f5d9-bc3f-4362-b3b8-b25386f29f13"/>
+  </producedTypes>
+  <name>mega_ЦеныПлановойСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены плановой себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c38b04da-fbb5-4d47-aa6a-db53d694be74">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f9b4a029-a989-43e2-b718-e25f96d4f4f7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="67c3d741-5131-4082-8429-15f019e0bce5">
+    <name>ВидСтадииОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стадии обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>
