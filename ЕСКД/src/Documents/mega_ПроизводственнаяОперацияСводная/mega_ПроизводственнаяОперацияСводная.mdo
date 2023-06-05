@@ -566,13 +566,6 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <templates uuid="9cd33de8-46d7-4755-9607-970285e1dda1">
-    <name>ПФ_MXL_ПримерПечатнойФормы</name>
-    <synonym>
-      <key>ru</key>
-      <value>П ф MXL пример печатной формы</value>
-    </synonym>
-  </templates>
   <templates uuid="327f1d6b-6eec-457b-bfad-9e97571d7835">
     <name>ПФ_MXL_ВыработкаИсполнителей</name>
     <synonym>

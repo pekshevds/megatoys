@@ -1155,10 +1155,6 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.МатериалыОпераций.Номенклатура</segments>
           </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>МатериалыОперацийНоменклатураПриИзменении</name>
-          </handlers>
           <extendedTooltip>
             <name>МатериалыОперацийНоменклатураРасширеннаяПодсказка</name>
             <id>175</id>

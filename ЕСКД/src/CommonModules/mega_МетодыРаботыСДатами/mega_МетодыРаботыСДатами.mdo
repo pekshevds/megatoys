@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca377898-0bfe-4251-a7c6-bbf52af7417e">
+  <name>mega_МетодыРаботыСДатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы работы с датами</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
