@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5062924-f82c-4c30-acca-9060b930855b">
+  <producedTypes>
+    <selectionType typeId="db70adb4-4bc6-4098-9cad-c4437370fc4d" valueTypeId="6a69bd45-baa2-4bd2-8791-b377a35df9a1"/>
+    <listType typeId="e5d88d20-35f1-4c8b-b006-b79761e46fb8" valueTypeId="d42ba43c-47d4-413f-a5d0-bcc51f2a1387"/>
+    <managerType typeId="55505aed-4dcb-4324-915a-40514d944bb0" valueTypeId="9b19310e-a400-44e7-bfab-44db8c066ac4"/>
+    <recordSetType typeId="782eb6f6-384f-480a-b63a-94e288ad3e14" valueTypeId="77b5ff46-3c36-4483-a768-3b4fa863ff7e"/>
+    <recordKeyType typeId="62270c34-37d2-437e-8213-411be4579c68" valueTypeId="241d543a-8f6a-437c-b02c-62b2c321289b"/>
+    <recordType typeId="16581f3c-771c-4c60-b788-0431adafe294" valueTypeId="3bea131e-6fd0-47da-9362-397991d0bd0c"/>
+  </producedTypes>
+  <name>mega_ВыпускПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a9aeba24-d12c-499e-8f25-42b102f1575c">
+    <name>КоличествоПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продукции</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fb42853b-f4d9-41e6-8e96-ecf96653f942">
+    <name>КоличествоСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество сырья</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="eff1f53f-1dd2-456b-bd8b-8243f2b0b584">
+    <name>СуммаСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма сырья</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7451dabb-90a7-4ee7-950f-67f8926da22f">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1ad5a528-1289-44aa-9288-4da1daa38230">
+    <name>ВидСтадииОбработкиПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стадии обработки продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c0d862db-568a-49a1-9b90-5161a44675e4">
+    <name>Сырье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сырье</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d7ba75d8-82ed-4510-a08f-a9d8fcb3c912">
+    <name>ВидСтадииОбработкиСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид стадии обработки сырья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ВидыСтадийОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
