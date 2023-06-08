@@ -10,5 +10,5 @@
   <content>Catalog.mega_Номенклатура</content>
   <content>Catalog.mega_КлассификаторЕдиницИзмерения</content>
   <content>Catalog.mega_МестаХранения</content>
-  <parentSubsystem>Subsystem.mrga_Склад</parentSubsystem>
+  <parentSubsystem>Subsystem.mega_Склад</parentSubsystem>
 </mdclass:Subsystem>

@@ -8,5 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.mega_ВедомостьПоСкладскимЗапасам</content>
-  <parentSubsystem>Subsystem.mrga_Склад</parentSubsystem>
+  <parentSubsystem>Subsystem.mega_Склад</parentSubsystem>
 </mdclass:Subsystem>

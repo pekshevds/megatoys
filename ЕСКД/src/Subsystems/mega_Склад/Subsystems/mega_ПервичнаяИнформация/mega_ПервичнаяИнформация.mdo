@@ -10,7 +10,8 @@
   <content>Document.mega_ПриходнаяНакладная</content>
   <content>Document.mega_РасходнаяНакладная</content>
   <content>Document.mega_ПередачаВПроизводство</content>
-  <content>Document.mega_ПотребностьВСырьеИМатериалах</content>
+  <content>Document.mega_ЗавкаВнутренняя</content>
   <content>Document.mega_УстановкаЦенПлановойСебестоимости</content>
-  <parentSubsystem>Subsystem.mrga_Склад</parentSubsystem>
+  <content>Document.mega_ЗаявкаПоставщику</content>
+  <parentSubsystem>Subsystem.mega_Склад</parentSubsystem>
 </mdclass:Subsystem>

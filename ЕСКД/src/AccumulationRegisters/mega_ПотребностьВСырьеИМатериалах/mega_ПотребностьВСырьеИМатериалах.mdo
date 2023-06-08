@@ -36,7 +36,7 @@
       <value>Документ потребности</value>
     </synonym>
     <type>
-      <types>DocumentRef.mega_ПотребностьВСырьеИМатериалах</types>
+      <types>DocumentRef.mega_ЗавкаВнутренняя</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
