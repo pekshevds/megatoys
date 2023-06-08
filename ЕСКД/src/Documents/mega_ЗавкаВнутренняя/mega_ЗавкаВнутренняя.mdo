@@ -26,7 +26,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.mega_ЗавкаВнутренняя.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.mega_ЗавкаВнутренняя.Form.ФормаСписка</defaultListForm>
-  <registerRecords>AccumulationRegister.mega_ПотребностьВСырьеИМатериалах</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9641e91a-f3b3-44d7-bf90-9d9c24888dff">

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc46905-3144-4b08-8fab-a5e9d3d5df13">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="172ba853-2b84-455a-ba1b-6123dd9cc59d">
   <producedTypes>
-    <selectionType typeId="63090a1f-6a82-4833-a58b-52dfbbcae276" valueTypeId="0d6f5fdb-70c2-4ccd-b527-86da53ab39dd"/>
-    <listType typeId="3a9d83cb-46c0-4d49-8bde-39ddae3d9010" valueTypeId="ac1174ec-8b26-4421-bb19-31a6c8687f5f"/>
-    <managerType typeId="2dce1f5b-923b-4075-860c-60be579a76d0" valueTypeId="4c9aaa02-9790-4bdf-afdf-b2c793975f44"/>
-    <recordSetType typeId="6d31d4d3-ca5d-4e0b-abc9-8b3392cddf34" valueTypeId="023ef4c0-9c25-4950-ad10-b2b25b5edb71"/>
-    <recordKeyType typeId="b2e52bc1-959c-4973-b425-118fa83a1d24" valueTypeId="187d2f37-b566-4952-82a2-d9577ecd0a86"/>
-    <recordType typeId="a94ae6e5-320d-4793-a4ac-d217af00efac" valueTypeId="b2c7301c-88be-401b-9440-933d7b27fc10"/>
+    <selectionType typeId="fa8dae9d-add4-494f-99b5-8fe440fc30f3" valueTypeId="37941cf6-f704-49fd-b260-97dcd5041408"/>
+    <listType typeId="e22313fd-8f01-4ffb-a78d-d6b3f666e9af" valueTypeId="e30ec43c-03f3-40f7-a5b2-830665cab4ea"/>
+    <managerType typeId="fd836134-5bb2-4dde-b8b0-26df72934725" valueTypeId="f775f028-3074-4499-8095-d4068ad98630"/>
+    <recordSetType typeId="c46ac0c8-37bf-47ea-a7d6-b0485c8f8732" valueTypeId="f96c5610-cbdb-4b4d-9c0e-9c2a700edba4"/>
+    <recordKeyType typeId="e9eb01ed-aa0e-443f-a8be-e1fe656c6b99" valueTypeId="544ddb8d-cc7a-4de7-99a6-611b33d96e0c"/>
+    <recordType typeId="fbf4eb06-81f4-4df1-a944-2ba0981b4b14" valueTypeId="970993c2-8f6f-4922-bf8d-ef15f56ba19e"/>
   </producedTypes>
-  <name>mega_ПотребностьВСырьеИМатериалах</name>
+  <name>mega_ЗавкиПоставщикам</name>
   <synonym>
     <key>ru</key>
-    <value>Потребность в сырье и материалах</value>
+    <value>Заявки поставщикам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="42153046-3846-4fad-946b-40f730484471">
+  <resources uuid="f53b6616-0994-4663-8753-211dc4cadef7">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -29,21 +29,21 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="174575ff-0834-40fc-a4c8-3e2ea15f1dd2">
+  <dimensions uuid="1ab6100d-11dd-4855-95ad-f3bf36ebec1d">
     <name>ДокументПотребности</name>
     <synonym>
       <key>ru</key>
       <value>Документ потребности</value>
     </synonym>
     <type>
-      <types>DocumentRef.mega_ЗавкаВнутренняя</types>
+      <types>DocumentRef.mega_ЗаявкаПоставщику</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="63e9efb9-c0df-42b2-a4ee-b0ee316f170a">
+  <dimensions uuid="0bf22851-6b33-4bf1-bf4c-f203b138231f">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
