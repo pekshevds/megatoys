@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dff0f921-850d-4d2b-9fb3-1360ba390929">
+  <producedTypes>
+    <objectType typeId="65ab325e-6fff-4eb7-8b67-aa17240a997e" valueTypeId="4d6a9b3e-ec60-4740-b8b3-b4ad0e42b4a3"/>
+    <managerType typeId="cb50ce32-8a60-499a-af65-396c9dd70d89" valueTypeId="8e10e033-2d12-411e-a297-b84cb074ae6f"/>
+  </producedTypes>
+  <name>mega_ВнутренниеЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутренние заявки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.mega_ВнутренниеЗаявки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="117ed1b6-0a19-4a04-bd99-1afbbdd82a49">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

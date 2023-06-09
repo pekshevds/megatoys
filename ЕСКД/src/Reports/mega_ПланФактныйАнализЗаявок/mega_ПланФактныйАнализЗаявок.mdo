@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb17765b-c46b-43e1-b82c-c6be0de28bc6">
+  <producedTypes>
+    <objectType typeId="b0d8710f-c054-4293-91c2-9abaeeb0bb15" valueTypeId="214ecb2a-744f-44ef-a362-acc116d61bb0"/>
+    <managerType typeId="ee1eefe7-cee3-46c3-bb9b-7ab5e372b208" valueTypeId="b646fb3e-5bcd-4fe3-910f-84b0886e9fad"/>
+  </producedTypes>
+  <name>mega_ПланФактныйАнализЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>План-фактный анализ заявок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.mega_ПланФактныйАнализЗаявок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="84f8a1f9-08ba-4ec6-860c-8cbc68409c20">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

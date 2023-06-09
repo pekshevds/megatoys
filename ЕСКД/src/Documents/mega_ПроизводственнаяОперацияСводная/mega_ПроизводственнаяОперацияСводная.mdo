@@ -59,6 +59,10 @@
   <basedOn>Document.mega_СменноеЗадание</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Производственные операции (сводные)</value>
+  </listPresentation>
   <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
