@@ -8,8 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.mega_ВедомостьПоСкладскимЗапасам</content>
-  <content>Report.mega_ПланФактныйАнализЗаявок</content>
-  <content>Report.mega_ЗаявкиПоставщикам</content>
-  <content>Report.mega_ВнутренниеЗаявки</content>
   <parentSubsystem>Subsystem.mega_Склад</parentSubsystem>
 </mdclass:Subsystem>

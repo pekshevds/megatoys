@@ -260,6 +260,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Состав.Номенклатура</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СоставНоменклатураПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СоставНоменклатураРасширеннаяПодсказка</name>
         <id>34</id>

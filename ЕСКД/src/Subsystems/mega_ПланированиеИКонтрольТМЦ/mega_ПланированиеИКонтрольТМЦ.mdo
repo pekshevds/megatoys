@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eae544c0-f4a3-4861-b5e0-d2a910047054">
+  <name>mega_ПланированиеИКонтрольТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование и контроль ТМЦ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодменюСервис</picture>
+  </picture>
+  <subsystems>mega_НормативноСправочнаяИнформация</subsystems>
+  <subsystems>mega_ПервичнаяИнформация</subsystems>
+  <subsystems>mega_Отчеты</subsystems>
+</mdclass:Subsystem>
