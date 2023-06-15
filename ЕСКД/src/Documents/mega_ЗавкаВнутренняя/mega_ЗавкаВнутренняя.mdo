@@ -141,6 +141,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="c2dbf426-dfc0-42f9-9ae5-95cdc97d1cf1">
+    <name>ФормаВыбораСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора спецификации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="82d0e5bc-5dd0-4bfb-9f57-8398a4da427c">
     <producedTypes>
       <objectType typeId="28c871fb-2b65-4742-b2b8-3d3249dcad2e" valueTypeId="a916da69-a360-4616-8aae-2cbf49658cac"/>
