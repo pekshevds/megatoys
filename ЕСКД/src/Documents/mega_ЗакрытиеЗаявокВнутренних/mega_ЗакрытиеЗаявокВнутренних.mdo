@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b556a766-712d-40c8-826d-5d3f6590b31a">
+  <producedTypes>
+    <objectType typeId="d9c4b6b9-0582-4832-8c83-2e74c7d8b97c" valueTypeId="e1b27745-7771-448c-95d1-8c05387f82a7"/>
+    <refType typeId="5f09b731-57a4-4a53-975e-a3fe4fcbe864" valueTypeId="3f5c0fbd-ee58-48bc-97e3-a3002b8633d0"/>
+    <selectionType typeId="ca95f290-6db2-447a-8a84-7e69ebb4b799" valueTypeId="8d0262bd-5cd4-47ab-b707-5991dc70e1c9"/>
+    <listType typeId="028115f9-37b4-46b5-8f5f-dc6c564b1936" valueTypeId="8a582a06-5f15-44af-afec-d27f732746c9"/>
+    <managerType typeId="6d529f9e-1f37-4eab-8813-10dcac264c8a" valueTypeId="5eb7e579-5ca5-4210-af4e-e480f66a22b9"/>
+  </producedTypes>
+  <name>mega_ЗакрытиеЗаявокВнутренних</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие заявок внутренних</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.mega_ЗакрытиеЗаявокВнутренних.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Закрытия заявок внутренних</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.mega_ЗакрытиеЗаявокВнутренних.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_ЗакрытиеЗаявокВнутренних.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8517deb5-d44d-461b-9dc2-a803a9efda8c">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший встречу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40b097de-5dbb-4c57-9661-76c7b219ab9d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за работу по встрече</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1562ceb-80d3-4b09-a6b1-bcd96c53b026">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="71257d1e-5fb8-4b52-9c89-5808e5c6ddc6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b498df57-6a4b-4b90-a84e-e8b75be5735e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1b84296f-7672-437c-91fc-77095429bcd1">
+    <producedTypes>
+      <objectType typeId="c149dafc-938e-4eb1-b847-0d2652697ca5" valueTypeId="f5ad6eec-32b3-42d1-a42f-0791eb04df60"/>
+      <rowType typeId="306225d7-525d-4329-8a60-e00285607998" valueTypeId="8b28dbb1-8e31-4cb2-afcc-a3315e6b52e5"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cf64c7e3-0c78-4ae0-83fa-32cf473be683">
+      <name>ЗаявкаВнутренняя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка внутренняя</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.mega_ЗаявкаВнутренняя</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="84f94c33-9402-42c0-b329-c90e03fb8acf">
+    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

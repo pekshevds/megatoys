@@ -7,14 +7,14 @@
     <listType typeId="9b569dfd-961b-4961-a873-d0a26aec22c1" valueTypeId="bdbf22ec-f8dd-4e9e-9303-82e6dea8300a"/>
     <managerType typeId="0d1328a3-a3c5-4643-93e3-c688589a51cd" valueTypeId="1b7a83a6-1055-49d2-9c22-90e7887b7052"/>
   </producedTypes>
-  <name>mega_ЗавкаВнутренняя</name>
+  <name>mega_ЗаявкаВнутренняя</name>
   <synonym>
     <key>ru</key>
     <value>Заявка внутренняя</value>
   </synonym>
   <comment>Заявка внутренняя на обеспечение сырьем и материалами</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.mega_ЗавкаВнутренняя.StandardAttribute.Number</inputByString>
+  <inputByString>Document.mega_ЗаявкаВнутренняя.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -32,8 +32,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.mega_ЗавкаВнутренняя.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.mega_ЗавкаВнутренняя.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Document.mega_ЗаявкаВнутренняя.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_ЗаявкаВнутренняя.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -197,7 +198,7 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_ЗавкаВнутренняя.TabularSection.Состав.Attribute.Номенклатура</field>
+        <field>Document.mega_ЗаявкаВнутренняя.TabularSection.Состав.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>

@@ -8,7 +8,8 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.mega_ПриходнаяНакладная</content>
-  <content>Document.mega_ЗавкаВнутренняя</content>
+  <content>Document.mega_ЗаявкаВнутренняя</content>
   <content>Document.mega_ЗаявкаПоставщику</content>
+  <content>Document.mega_ЗакрытиеЗаявокВнутренних</content>
   <parentSubsystem>Subsystem.mega_ПланированиеИКонтрольТМЦ</parentSubsystem>
 </mdclass:Subsystem>

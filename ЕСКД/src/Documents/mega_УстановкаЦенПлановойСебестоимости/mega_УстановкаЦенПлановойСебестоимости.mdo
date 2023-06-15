@@ -30,6 +30,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.mega_УстановкаЦенПлановойСебестоимости.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.mega_УстановкаЦенПлановойСебестоимости.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.mega_ЦеныПлановойСебестоимости</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
