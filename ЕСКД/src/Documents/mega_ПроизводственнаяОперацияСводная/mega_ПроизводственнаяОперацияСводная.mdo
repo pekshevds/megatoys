@@ -73,9 +73,8 @@
   <defaultListForm>Document.mega_ПроизводственнаяОперацияСводная.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.mega_ПроизводственныеЗапасы</registerRecords>
-  <registerRecords>AccumulationRegister.mega_ВыработкаИсполнителей</registerRecords>
   <registerRecords>AccumulationRegister.mega_ВыпускПродукции</registerRecords>
-  <registerRecords>AccumulationRegister.mega_ПартииЗапасов</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ВыработкаИсполнителей</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>

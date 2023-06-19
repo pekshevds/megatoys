@@ -612,12 +612,12 @@
           <autoFill>true</autoFill>
         </autoCommandBar>
         <handlers>
-          <event>OnChange</event>
-          <name>СоставПриИзменении</name>
-        </handlers>
-        <handlers>
           <event>OnActivateRow</event>
           <name>СоставПриАктивизацииСтроки</name>
+        </handlers>
+        <handlers>
+          <event>OnChange</event>
+          <name>СоставПриИзменении</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -866,6 +866,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиаграммаГанта</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <items xsi:type="form:FormField">
               <name>ДиаграммаГантаТаблицаТочка</name>
@@ -1011,6 +1014,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
+              <source>ДиаграммаГантаТаблицаСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1049,6 +1053,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
+              <source>ДиаграммаГантаТаблицаСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1087,6 +1092,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
+              <source>ДиаграммаГантаТаблицаУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1204,7 +1210,7 @@
         <event>OnCurrentPageChange</event>
         <name>СтраницыПриСменеСтраницы</name>
       </handlers>
-      <pagesRepresentation>Auto</pagesRepresentation>
+      <pagesRepresentation>TabsOnTop</pagesRepresentation>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>

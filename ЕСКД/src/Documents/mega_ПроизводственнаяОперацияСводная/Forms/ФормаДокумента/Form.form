@@ -1114,12 +1114,12 @@
           <name>ТехнологическиеОперацииПриОкончанииРедактирования</name>
         </handlers>
         <handlers>
-          <event>OnActivateRow</event>
-          <name>ТехнологическиеОперацииПриАктивизацииСтроки</name>
-        </handlers>
-        <handlers>
           <event>BeforeDeleteRow</event>
           <name>ТехнологическиеОперацииПередУдалением</name>
+        </handlers>
+        <handlers>
+          <event>OnActivateRow</event>
+          <name>ТехнологическиеОперацииПриАктивизацииСтроки</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -1668,12 +1668,12 @@
           <autoFill>true</autoFill>
         </autoCommandBar>
         <handlers>
-          <event>BeforeEditEnd</event>
-          <name>МатериалыОперацийПередОкончаниемРедактирования</name>
-        </handlers>
-        <handlers>
           <event>BeforeAddRow</event>
           <name>МатериалыОперацийПередНачаломДобавления</name>
+        </handlers>
+        <handlers>
+          <event>BeforeEditEnd</event>
+          <name>МатериалыОперацийПередОкончаниемРедактирования</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -2321,6 +2321,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>МатериалыСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2359,6 +2360,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>МатериалыСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2397,6 +2399,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>МатериалыУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2444,6 +2447,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>

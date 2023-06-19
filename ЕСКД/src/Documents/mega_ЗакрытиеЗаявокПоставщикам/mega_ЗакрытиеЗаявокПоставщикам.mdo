@@ -30,8 +30,8 @@
   <defaultObjectForm>Document.mega_ЗакрытиеЗаявокПоставщикам.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.mega_ЗакрытиеЗаявокПоставщикам.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
-  <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
   <registerRecords>AccumulationRegister.mega_ЗавкиПоставщикам</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="0b64cf78-2113-4a3f-93a5-11e5172a25f1">

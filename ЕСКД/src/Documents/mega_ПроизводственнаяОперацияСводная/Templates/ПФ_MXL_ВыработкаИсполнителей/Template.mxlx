@@ -49,24 +49,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>2</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>4</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>6</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>8</index>
+		<indexTo>8</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -382,17 +365,6 @@
 	<height>22</height>
 	<vgRows>22</vgRows>
 	<merge>
-		<r>9</r>
-		<c>1</c>
-		<h>1</h>
-		<w>1</w>
-	</merge>
-	<merge>
-		<r>12</r>
-		<c>1</c>
-		<w>1</w>
-	</merge>
-	<merge>
 		<r>0</r>
 		<c>1</c>
 		<h>1</h>
@@ -400,46 +372,8 @@
 	</merge>
 	<merge>
 		<r>9</r>
-		<c>30</c>
+		<c>1</c>
 		<h>1</h>
-		<w>3</w>
-	</merge>
-	<merge>
-		<r>12</r>
-		<c>30</c>
-		<w>3</w>
-	</merge>
-	<merge>
-		<r>9</r>
-		<c>27</c>
-		<h>1</h>
-		<w>2</w>
-	</merge>
-	<merge>
-		<r>12</r>
-		<c>27</c>
-		<w>2</w>
-	</merge>
-	<merge>
-		<r>9</r>
-		<c>24</c>
-		<h>1</h>
-		<w>2</w>
-	</merge>
-	<merge>
-		<r>12</r>
-		<c>24</c>
-		<w>2</w>
-	</merge>
-	<merge>
-		<r>9</r>
-		<c>22</c>
-		<h>1</h>
-		<w>1</w>
-	</merge>
-	<merge>
-		<r>12</r>
-		<c>22</c>
 		<w>1</w>
 	</merge>
 	<merge>
@@ -449,13 +383,72 @@
 		<w>18</w>
 	</merge>
 	<merge>
+		<r>9</r>
+		<c>22</c>
+		<h>1</h>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>9</r>
+		<c>24</c>
+		<h>1</h>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>9</r>
+		<c>27</c>
+		<h>1</h>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>9</r>
+		<c>30</c>
+		<h>1</h>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>12</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
 		<r>12</r>
 		<c>3</c>
 		<w>18</w>
 	</merge>
+	<merge>
+		<r>12</r>
+		<c>22</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>12</r>
+		<c>24</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>12</r>
+		<c>27</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>12</r>
+		<c>30</c>
+		<w>3</w>
+	</merge>
+	<verticalUnmerge>
+		<r>9</r>
+		<c>26</c>
+		<w>3</w>
+	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>9</r>
 		<c>30</c>
+		<w>3</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>10</r>
+		<c>26</c>
 		<w>3</w>
 	</verticalUnmerge>
 	<verticalUnmerge>
@@ -466,16 +459,6 @@
 	<verticalUnmerge>
 		<r>12</r>
 		<c>30</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>9</r>
-		<c>26</c>
-		<w>3</w>
-	</verticalUnmerge>
-	<verticalUnmerge>
-		<r>10</r>
-		<c>26</c>
 		<w>3</w>
 	</verticalUnmerge>
 	<namedItem xsi:type="NamedItemCells">
@@ -546,8 +529,8 @@
 	<format>
 		<border>0</border>
 		<width>24</width>
-		<textPlacement>Wrap</textPlacement>
 		<widthWeightFactor>1</widthWeightFactor>
+		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<border>0</border>
@@ -564,9 +547,9 @@
 	<format>
 		<border>0</border>
 		<width>24</width>
+		<widthWeightFactor>1</widthWeightFactor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
-		<widthWeightFactor>1</widthWeightFactor>
 	</format>
 	<format>
 		<width>24</width>
