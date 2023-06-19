@@ -72,6 +72,7 @@
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.mega_ПроизводственныеЗапасы</registerRecords>
   <registerRecords>AccumulationRegister.mega_СкладскиеЗапасы</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ПартииЗапасов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
