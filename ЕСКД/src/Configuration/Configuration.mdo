@@ -2005,6 +2005,7 @@
   <catalogs>Catalog.mega_ПроизводственныеРесурсы</catalogs>
   <catalogs>Catalog.mega_МестаХранения</catalogs>
   <catalogs>Catalog.mega_ПричиныКорректировкиВидовСтадийОбработки</catalogs>
+  <catalogs>Catalog.mega_Контрагенты</catalogs>
   <documents>Document.mega_Болванка</documents>
   <documents>Document.mega_ЗаявкаВнутренняя</documents>
   <documents>Document.mega_ЗаявкаПоставщику</documents>
@@ -2031,6 +2032,7 @@
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.mega_ЗакрытиеЗаявокВнутренних</documents>
   <documents>Document.mega_ЗакрытиеЗаявокПоставщикам</documents>
+  <documents>Document.mega_ПредложениеПоставщика</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВажностьПроблемыУчета</enums>
@@ -2386,6 +2388,7 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.mega_ЦеныПлановойСебестоимости</informationRegisters>
+  <informationRegisters>InformationRegister.mega_ЦеныПоставщиков</informationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ВыпускПродукции</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ВыработкаИсполнителей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ЗавкиВнутренние</accumulationRegisters>

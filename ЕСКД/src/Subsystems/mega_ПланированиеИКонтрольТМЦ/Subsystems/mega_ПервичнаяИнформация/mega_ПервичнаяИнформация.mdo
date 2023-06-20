@@ -12,5 +12,6 @@
   <content>Document.mega_ЗаявкаПоставщику</content>
   <content>Document.mega_ЗакрытиеЗаявокВнутренних</content>
   <content>Document.mega_ЗакрытиеЗаявокПоставщикам</content>
+  <content>Document.mega_ПредложениеПоставщика</content>
   <parentSubsystem>Subsystem.mega_ПланированиеИКонтрольТМЦ</parentSubsystem>
 </mdclass:Subsystem>

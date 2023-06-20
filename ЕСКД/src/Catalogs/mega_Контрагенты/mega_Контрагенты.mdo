@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5f6d926-8d55-487a-9ae4-545f9cd4812a">
+  <producedTypes>
+    <objectType typeId="50c089f2-012e-4799-9e3f-efd96d67a75c" valueTypeId="caf72d00-4007-49ee-b67a-efcb7bab2255"/>
+    <refType typeId="c4b12072-ec36-4424-802f-f99146aa90fa" valueTypeId="ac5f07e6-6e57-499f-b1a8-0adb4c7a7f69"/>
+    <selectionType typeId="b421d7f3-bd9b-4eb9-ae87-107eccd90ce3" valueTypeId="ad68ea8d-dcbe-49be-bd3d-ebde3e5fa148"/>
+    <listType typeId="05fe3561-deaf-4fb6-bb2d-270c9f995bb9" valueTypeId="95cd0cd8-46fb-4cdd-9d68-01b968daa399"/>
+    <managerType typeId="78353195-65de-429e-9cee-b21809adac9c" valueTypeId="0886e1dc-380c-4af4-966f-a89bd960a914"/>
+  </producedTypes>
+  <name>mega_Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.mega_Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ef022427-c15b-41df-a0bd-6a77783c04e0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ab198f9-ac6a-4891-ac2b-b64b49de08c0">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
