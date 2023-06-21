@@ -34,10 +34,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="9b485a41-7541-47d5-a9c7-e78a3de1068d">
-    <name>Контрагент</name>
+    <name>Поставщик</name>
     <synonym>
       <key>ru</key>
-      <value>Контрагент</value>
+      <value>Поставщик</value>
     </synonym>
     <type>
       <types>CatalogRef.mega_Контрагенты</types>
