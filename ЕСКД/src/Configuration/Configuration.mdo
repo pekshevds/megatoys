@@ -2006,6 +2006,7 @@
   <catalogs>Catalog.mega_МестаХранения</catalogs>
   <catalogs>Catalog.mega_ПричиныКорректировкиВидовСтадийОбработки</catalogs>
   <catalogs>Catalog.mega_Контрагенты</catalogs>
+  <catalogs>Catalog.mega_НоменклатураПоставщиков</catalogs>
   <documents>Document.mega_Болванка</documents>
   <documents>Document.mega_ЗаявкаВнутренняя</documents>
   <documents>Document.mega_ЗаявкаПоставщику</documents>

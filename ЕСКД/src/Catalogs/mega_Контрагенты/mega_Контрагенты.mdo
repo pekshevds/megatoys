@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.mega_Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="ef022427-c15b-41df-a0bd-6a77783c04e0">
     <name>Комментарий</name>
     <synonym>
@@ -68,4 +69,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="8ed41a74-ad23-4eb6-979b-2976504d6e59">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

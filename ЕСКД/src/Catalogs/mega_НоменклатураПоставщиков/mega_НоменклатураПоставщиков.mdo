@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59acf872-2b8e-40ea-a706-8e5a38b611aa">
+  <producedTypes>
+    <objectType typeId="39b26cb9-1fc0-4314-8bec-18be8b525f2a" valueTypeId="923d2222-2856-46d3-81af-030c13182c24"/>
+    <refType typeId="baf86c3f-961c-4ef5-8033-04614d46a621" valueTypeId="4acdfc3e-08ce-49c4-abb1-e19d706e6938"/>
+    <selectionType typeId="2b112b72-b70b-4373-8dc5-a4c96b527124" valueTypeId="990dd5be-eaa4-4ed9-b107-cab6127c4e95"/>
+    <listType typeId="8acf87e6-e40b-4e90-8d6d-e2a504f6fa8c" valueTypeId="72d1b0d5-97d9-432f-982e-d7e4178c1b21"/>
+    <managerType typeId="78fb8ec6-f53e-4b7a-bf68-0cb168e1f4d1" valueTypeId="badb9916-4e32-422d-83cc-4931737e4b3f"/>
+  </producedTypes>
+  <name>mega_НоменклатураПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура поставщиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_НоменклатураПоставщиков.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_НоменклатураПоставщиков.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>36</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cfff2ab5-3afc-4d78-8bfc-384e3685a2c0">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65e89c70-19a6-4b34-9572-ecb1153afbc8">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

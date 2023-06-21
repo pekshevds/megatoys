@@ -10,5 +10,6 @@
   <content>Catalog.mega_Контрагенты</content>
   <content>Catalog.mega_Номенклатура</content>
   <content>InformationRegister.mega_ЦеныПоставщиков</content>
+  <content>Catalog.mega_НоменклатураПоставщиков</content>
   <parentSubsystem>Subsystem.mega_ПланированиеИКонтрольТМЦ</parentSubsystem>
 </mdclass:Subsystem>
