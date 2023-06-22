@@ -11,5 +11,6 @@
   <content>Report.mega_ПланФактныйАнализЗаявок</content>
   <content>Report.mega_ЗаявкиПоставщикам</content>
   <content>Report.mega_ВнутренниеЗаявки</content>
+  <content>DataProcessor.mega_АРМЛогиста</content>
   <parentSubsystem>Subsystem.mega_ПланированиеИКонтрольТМЦ</parentSubsystem>
 </mdclass:Subsystem>

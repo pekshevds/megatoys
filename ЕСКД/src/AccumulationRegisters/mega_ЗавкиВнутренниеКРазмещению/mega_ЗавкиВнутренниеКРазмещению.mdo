@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc46905-3144-4b08-8fab-a5e9d3d5df13">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1245667f-6795-4255-a078-16ac1fbc32a4">
   <producedTypes>
-    <selectionType typeId="63090a1f-6a82-4833-a58b-52dfbbcae276" valueTypeId="0d6f5fdb-70c2-4ccd-b527-86da53ab39dd"/>
-    <listType typeId="3a9d83cb-46c0-4d49-8bde-39ddae3d9010" valueTypeId="ac1174ec-8b26-4421-bb19-31a6c8687f5f"/>
-    <managerType typeId="2dce1f5b-923b-4075-860c-60be579a76d0" valueTypeId="4c9aaa02-9790-4bdf-afdf-b2c793975f44"/>
-    <recordSetType typeId="6d31d4d3-ca5d-4e0b-abc9-8b3392cddf34" valueTypeId="023ef4c0-9c25-4950-ad10-b2b25b5edb71"/>
-    <recordKeyType typeId="b2e52bc1-959c-4973-b425-118fa83a1d24" valueTypeId="187d2f37-b566-4952-82a2-d9577ecd0a86"/>
-    <recordType typeId="a94ae6e5-320d-4793-a4ac-d217af00efac" valueTypeId="b2c7301c-88be-401b-9440-933d7b27fc10"/>
+    <selectionType typeId="fa3e7ffa-f703-44a1-a75d-bdb905f3cc0f" valueTypeId="7a5caa4e-9970-4b46-99fc-501c63e10874"/>
+    <listType typeId="fd2ddfed-36eb-4134-8431-a6f43f613e08" valueTypeId="892c7904-5e59-4cff-bd42-c665ce3922bc"/>
+    <managerType typeId="2c238bb3-11f4-49ca-9486-b452c4d54895" valueTypeId="f0584df9-c6ba-412a-9a48-ab0fb4f139b3"/>
+    <recordSetType typeId="04b37f41-9ad0-4208-88f9-5e8b45a547aa" valueTypeId="aa1c30f7-14fd-4361-9ef5-49a8bedf4915"/>
+    <recordKeyType typeId="a22149c1-b861-48ac-bbe9-f1ab4d799ab2" valueTypeId="771e187c-57d3-49dd-bde4-85212345ccb9"/>
+    <recordType typeId="6462d42e-0a7b-4000-9e4f-15229e004f50" valueTypeId="c868cdcb-5ebf-487c-8f13-15413983b017"/>
   </producedTypes>
-  <name>mega_ЗавкиВнутренние</name>
+  <name>mega_ЗавкиВнутренниеКРазмещению</name>
   <synonym>
     <key>ru</key>
-    <value>Заявки внутренние</value>
+    <value>Заявки внутренние к размещению</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="42153046-3846-4fad-946b-40f730484471">
+  <resources uuid="9e566ed6-7d54-4d6d-87dc-95a4b3e6c47b">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -29,7 +29,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="174575ff-0834-40fc-a4c8-3e2ea15f1dd2">
+  <dimensions uuid="01819137-83f6-4540-9514-99d4a69f6719">
     <name>ДокументПотребности</name>
     <synonym>
       <key>ru</key>
@@ -43,7 +43,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="63e9efb9-c0df-42b2-a4ee-b0ee316f170a">
+  <dimensions uuid="09deb67d-0295-4ae3-bdee-5196d962ca88">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>

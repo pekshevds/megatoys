@@ -36,6 +36,7 @@
   <defaultListForm>Document.mega_ЗаявкаПоставщику.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.mega_ЗавкиПоставщикам</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ЗавкиВнутренниеКРазмещению</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="fa95b83b-7b70-44d8-b57c-105cf8a166ec">
@@ -120,6 +121,21 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07b2baa2-1da7-41d4-99fa-8a1940491f86">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -211,7 +227,7 @@
     </attributes>
   </tabularSections>
   <templates uuid="251ba448-c75f-4ff6-8bd7-6b43d685cd22">
-    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <name>ПФ_MXL_ЗаявкаПоставщику</name>
     <synonym>
       <key>ru</key>
       <value>Печатная форма</value>

@@ -36,6 +36,7 @@
   <defaultListForm>Document.mega_ЗаявкаВнутренняя.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ЗавкиВнутренниеКРазмещению</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9641e91a-f3b3-44d7-bf90-9d9c24888dff">

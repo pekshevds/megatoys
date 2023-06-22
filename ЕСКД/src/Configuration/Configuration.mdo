@@ -2156,6 +2156,8 @@
   <reports>Report.mega_ПланФактныйАнализЗаявок</reports>
   <reports>Report.mega_ЗаявкиПоставщикам</reports>
   <reports>Report.mega_ВнутренниеЗаявки</reports>
+  <dataProcessors>DataProcessor.mega_АРМЛогиста</dataProcessors>
+  <dataProcessors>DataProcessor.mega_РегистрацияПроизводственнойОперации</dataProcessors>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
@@ -2224,7 +2226,6 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
-  <dataProcessors>DataProcessor.mega_РегистрацияПроизводственнойОперации</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
@@ -2393,6 +2394,7 @@
   <accumulationRegisters>AccumulationRegister.mega_ВыпускПродукции</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ВыработкаИсполнителей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ЗавкиВнутренние</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.mega_ЗавкиВнутренниеКРазмещению</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ЗавкиПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ПроизводственныеЗапасы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ПроизводственныеРесурсы</accumulationRegisters>
