@@ -819,6 +819,135 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>Размещена</name>
+      <id>91</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Размещена</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>РазмещенаРасширеннаяПодсказка</name>
+        <id>93</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РазмещенаКонтекстноеМеню</name>
+        <id>92</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Закрыта</name>
+      <id>79</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Закрыта</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ЗакрытаРасширеннаяПодсказка</name>
+        <id>81</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЗакрытаКонтекстноеМеню</name>
+        <id>80</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Просрочена</name>
+      <id>82</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Просрочена</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПросроченаРасширеннаяПодсказка</name>
+        <id>84</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПросроченаКонтекстноеМеню</name>
+        <id>83</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
@@ -1043,9 +1172,33 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	mega_ЗаявкаВнутренняя.Ссылка,
+	mega_ЗаявкаВнутренняя.ПометкаУдаления,
+	mega_ЗаявкаВнутренняя.Номер,
+	mega_ЗаявкаВнутренняя.Дата,
+	mega_ЗаявкаВнутренняя.Проведен,
+	mega_ЗаявкаВнутренняя.Автор,
+	mega_ЗаявкаВнутренняя.Ответственный,
+	mega_ЗаявкаВнутренняя.Комментарий,
+	mega_ЗаявкаВнутренняя.ЗакрытьПотребностьДо,
+	mega_ЗаявкаВнутренняя.Подразделение,
+	mega_ЗаявкаВнутренняя.Количество,
+	mega_ЗавкиВнутренниеОбороты.КоличествоРасход,
+	mega_ЗаявкаВнутренняя.Количество = ЕСТЬNULL(mega_ЗавкиВнутренниеОбороты.КоличествоРасход, 0) КАК Закрыта,
+	mega_ЗаявкаВнутренняя.Количество = ЕСТЬNULL(mega_ЗавкиВнутренниеКРазмещению.КоличествоРасход, 0) КАК Размещена,
+	mega_ЗаявкаВнутренняя.ЗакрытьПотребностьДо &lt; &amp;ТекущаяДатаСеанса
+	И НЕ (mega_ЗаявкаВнутренняя.Количество = ЕСТЬNULL(mega_ЗавкиВнутренниеОбороты.КоличествоРасход, 0)) КАК Просрочена
+ИЗ
+	Документ.mega_ЗаявкаВнутренняя КАК mega_ЗаявкаВнутренняя
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.mega_ЗавкиВнутренние.Обороты(,,,) КАК mega_ЗавкиВнутренниеОбороты
+		ПО mega_ЗаявкаВнутренняя.Ссылка = mega_ЗавкиВнутренниеОбороты.ДокументПотребности
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.mega_ЗавкиВнутренниеКРазмещению.Обороты(,,,) КАК mega_ЗавкиВнутренниеКРазмещению
+		ПО mega_ЗаявкаВнутренняя.Ссылка = mega_ЗавкиВнутренниеКРазмещению.ДокументПотребности</queryText>
       <mainTable>Document.mega_ЗаявкаВнутренняя</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>

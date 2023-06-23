@@ -23,6 +23,7 @@
     <key>ru</key>
     <value>Установки цен плановой себестоимости</value>
   </listPresentation>
+  <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -34,6 +35,8 @@
   <registerRecords>InformationRegister.mega_ЦеныПлановойСебестоимости</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
   <attributes uuid="f45b47ea-5d57-432d-b2a7-ef3117cbef16">
     <name>Автор</name>
     <synonym>

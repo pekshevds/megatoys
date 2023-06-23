@@ -22,6 +22,7 @@
     <key>ru</key>
     <value>Закрытия заявок поставщикам</value>
   </listPresentation>
+  <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -34,6 +35,8 @@
   <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
   <attributes uuid="0b64cf78-2113-4a3f-93a5-11e5172a25f1">
     <name>Автор</name>
     <synonym>
