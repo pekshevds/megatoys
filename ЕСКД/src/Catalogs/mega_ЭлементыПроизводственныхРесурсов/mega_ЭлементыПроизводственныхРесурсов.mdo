@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c152630-58be-4e07-b819-9de36826f638">
+  <producedTypes>
+    <objectType typeId="2cd6360d-58a9-4200-a59f-7953708d409b" valueTypeId="931c46bf-8e98-4f68-9400-063b4ea7dc1b"/>
+    <refType typeId="b56d3997-201b-4c4c-ae0e-d0d808c32fa9" valueTypeId="f4d4fbe7-e4e3-4b1a-80a1-514f63bf3760"/>
+    <selectionType typeId="ca6f1b84-591d-450f-897c-0f05508619ee" valueTypeId="1759de5a-dc2d-4b7f-9e09-8886cebf15a7"/>
+    <listType typeId="d0035c21-02c0-41a6-a85e-a9a439b39694" valueTypeId="f208583c-bb51-4300-bc90-617ac7b8a3de"/>
+    <managerType typeId="001b4521-1484-479c-b2d0-7f2b21c210c3" valueTypeId="99c17041-f108-4094-b06c-59e362e38b4b"/>
+  </producedTypes>
+  <name>mega_ЭлементыПроизводственныхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы производственных ресурсов</value>
+  </synonym>
+  <comment>Станки, оборудование, бригады и прочее</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_ЭлементыПроизводственныхРесурсов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_ЭлементыПроизводственныхРесурсов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.mega_ПроизводственныеРесурсы</owners>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

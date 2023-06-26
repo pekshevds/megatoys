@@ -1942,6 +1942,7 @@
   <catalogs>Catalog.mega_ПроизводственныеРесурсы</catalogs>
   <catalogs>Catalog.mega_Спецификации</catalogs>
   <catalogs>Catalog.mega_ШаблоныСпецификаций</catalogs>
+  <catalogs>Catalog.mega_ЭлементыПроизводственныхРесурсов</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
