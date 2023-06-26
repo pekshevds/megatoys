@@ -152,6 +152,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b7ad0654-fd4d-42de-b129-18eb3e81ddc3">
+    <name>ПроизводственныйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственный ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ПроизводственныеРесурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c70c1ec4-8c26-47f4-a9ec-eb243f9b21e7">
+    <name>Мастер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший встречу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6c47a9ca-7de3-474e-ba50-a5c467622679">
     <name>ФормаДокумента</name>
     <synonym>
@@ -370,7 +406,7 @@
     </attributes>
   </tabularSections>
   <templates uuid="4a96507d-616f-4e04-a326-361f6b7ceb9e">
-    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <name>ПФ_MXL_СменноеЗадание</name>
     <synonym>
       <key>ru</key>
       <value>Печатная форма</value>
