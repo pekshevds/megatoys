@@ -797,6 +797,9 @@
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <filterCriteria>FilterCriterion.ФайлыВТоме</filterCriteria>
   <commonModules>CommonModule.GoogleПереводчик</commonModules>
+  <commonModules>CommonModule.mega_МетодыРаботыСДатами</commonModules>
+  <commonModules>CommonModule.mega_ТиповыеРасчеты</commonModules>
+  <commonModules>CommonModule.mega_Штрихкодирование</commonModules>
   <commonModules>CommonModule.АвтономнаяРабота</commonModules>
   <commonModules>CommonModule.АвтономнаяРаботаСлужебный</commonModules>
   <commonModules>CommonModule.АвтономнаяРаботаСлужебныйКлиент</commonModules>
@@ -1275,8 +1278,6 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйЛокализация</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЯндексПереводчик</commonModules>
-  <commonModules>CommonModule.mega_Штрихкодирование</commonModules>
-  <commonModules>CommonModule.mega_МетодыРаботыСДатами</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -2038,6 +2039,8 @@
   <documents>Document.mega_ПредложениеПоставщика</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
+  <enums>Enum.mega_СтавкиНДС</enums>
+  <enums>Enum.mega_ТипыНоменклатуры</enums>
   <enums>Enum.ВажностьПроблемыУчета</enums>
   <enums>Enum.ВариантыВажностиВзаимодействия</enums>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
@@ -2120,7 +2123,6 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.mega_ТипыНоменклатуры</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>

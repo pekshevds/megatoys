@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2137adba-def9-4645-834a-2c583809ba57">
+  <producedTypes>
+    <refType typeId="b4e03ed8-3264-42bd-a588-ba8ed4f60117" valueTypeId="f9bab9d3-c97f-41c6-9243-fba8b2bc1226"/>
+    <listType typeId="01fb05c7-e556-47a4-95fc-ca7c4c70b8d1" valueTypeId="45ebb14b-367b-4071-80f2-d6ec9b87d229"/>
+    <managerType typeId="b7b0f281-f617-4b73-8030-138ebf7d6305" valueTypeId="d44062c0-6ff1-48aa-a651-8e2d90a292dd"/>
+  </producedTypes>
+  <name>mega_СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cтавки НДС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87829075-ee66-482c-9356-f9b03e388b62">
+    <name>НДС18</name>
+    <synonym>
+      <key>ru</key>
+      <value>18%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a6f4bb8-5815-47d0-8af6-a512f0e92df5">
+    <name>НДС18_118</name>
+    <synonym>
+      <key>ru</key>
+      <value>18/118</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3d1ce7c-2106-4f29-be3b-c85f3966b0a3">
+    <name>НДС10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ea3dc76-85b5-4a91-9f54-6fb2f63c09f2">
+    <name>НДС10_110</name>
+    <synonym>
+      <key>ru</key>
+      <value>10/110</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea11c4e6-1b02-4ee5-b1dd-19940bb06421">
+    <name>НДС0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17ebfb34-0968-4e55-acf3-0ca1de40b6b9">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2587ecaa-19df-4dc9-8d61-6aa39877b58a">
+    <name>НДС20</name>
+    <synonym>
+      <key>ru</key>
+      <value>20%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="765f4a01-4d07-4832-88c2-298665df858b">
+    <name>НДС20_120</name>
+    <synonym>
+      <key>ru</key>
+      <value>20/120</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
