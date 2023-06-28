@@ -11,5 +11,6 @@
   <content>Document.mega_РасходнаяНакладная</content>
   <content>Document.mega_ПередачаВПроизводство</content>
   <content>Document.mega_УстановкаЦенПлановойСебестоимости</content>
+  <content>Document.mega_ПеремещениеМеждуПодразделениями</content>
   <parentSubsystem>Subsystem.mega_Склад</parentSubsystem>
 </mdclass:Subsystem>

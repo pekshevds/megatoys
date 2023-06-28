@@ -2011,12 +2011,16 @@
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
   <documents>Document.mega_Болванка</documents>
+  <documents>Document.mega_ЗакрытиеЗаявокВнутренних</documents>
+  <documents>Document.mega_ЗакрытиеЗаявокПоставщикам</documents>
   <documents>Document.mega_ЗаявкаВнутренняя</documents>
   <documents>Document.mega_ЗаявкаПоставщику</documents>
   <documents>Document.mega_КорректировкаВидаСтадииОбработки</documents>
   <documents>Document.mega_ПередачаВПроизводство</documents>
   <documents>Document.mega_ПередачаНаСклад</documents>
+  <documents>Document.mega_ПеремещениеМеждуПодразделениями</documents>
   <documents>Document.mega_ПланПроизводства</documents>
+  <documents>Document.mega_ПредложениеПоставщика</documents>
   <documents>Document.mega_ПриходнаяНакладная</documents>
   <documents>Document.mega_ПриходРесурсов</documents>
   <documents>Document.mega_ПроизводственнаяОперация</documents>
@@ -2034,9 +2038,6 @@
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
-  <documents>Document.mega_ЗакрытиеЗаявокВнутренних</documents>
-  <documents>Document.mega_ЗакрытиеЗаявокПоставщикам</documents>
-  <documents>Document.mega_ПредложениеПоставщика</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.mega_СтавкиНДС</enums>
