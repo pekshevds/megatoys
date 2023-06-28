@@ -1066,7 +1066,7 @@
 				<i>9</i>
 				<c>
 					<f>24</f>
-					<parameter>Номенклатура</parameter>
+					<parameter>ВидДетали</parameter>
 				</c>
 			</c>
 			<c>
@@ -1235,7 +1235,7 @@
 				<i>1</i>
 				<c>
 					<f>29</f>
-					<tl/>
+					<parameter>НадписьИтог</parameter>
 				</c>
 			</c>
 			<c>
@@ -1930,6 +1930,7 @@
 	</line>
 	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>13</width>
 	</format>
@@ -2087,17 +2088,20 @@
 		<widthWeightFactor>1</widthWeightFactor>
 	</format>
 	<format>
+		<font>2</font>
 		<leftBorder>0</leftBorder>
 		<topBorder>0</topBorder>
 		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<backColor>style:FieldAlternativeBackColor</backColor>
 		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<backColor>style:FieldAlternativeBackColor</backColor>
 	</format>
 	<format>
+		<font>2</font>
 		<border>0</border>
 		<width>24</width>
 		<backColor>style:FieldAlternativeBackColor</backColor>
