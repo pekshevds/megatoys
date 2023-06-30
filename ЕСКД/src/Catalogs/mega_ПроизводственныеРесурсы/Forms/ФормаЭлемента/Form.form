@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>Код</name>
-    <id>1</id>
+    <name>Участок</name>
+    <id>35</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Code</segments>
+      <segments>Объект.Участок</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КодРасширеннаяПодсказка</name>
-      <id>3</id>
+      <name>УчастокРасширеннаяПодсказка</name>
+      <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -27,8 +27,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КодКонтекстноеМеню</name>
-      <id>2</id>
+      <name>УчастокКонтекстноеМеню</name>
+      <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -37,7 +37,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>

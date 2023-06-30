@@ -50,6 +50,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="013b782e-ee50-430c-bbba-79f4de9505ef">
+    <name>Участок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_УчасткиПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="7f5676f8-fa3d-4978-b3df-cf253140054d">
     <producedTypes>
       <objectType typeId="2d421bfb-8b52-4649-95ee-90fec28bde8c" valueTypeId="d7479da4-80f5-4d15-907d-3e373faa3497"/>
