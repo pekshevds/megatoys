@@ -245,7 +245,7 @@
     <name>ДоговорКонтрагента</name>
     <synonym>
       <key>ru</key>
-      <value>Договор контрагента</value>
+      <value>Договор</value>
     </synonym>
     <type>
       <types>CatalogRef.mega_ДоговорыКонтрагентов</types>
@@ -260,6 +260,21 @@
       <name>Отбор.Организация</name>
       <field>Document.mega_ПриходнаяНакладная.Attribute.Организация</field>
     </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a243678b-4dc0-4967-ab17-c6013b2addd4">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -357,6 +372,10 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Подразделение</name>
+        <field>Document.mega_ПриходнаяНакладная.Attribute.Подразделение</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
