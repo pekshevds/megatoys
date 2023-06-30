@@ -1932,6 +1932,7 @@
   <catalogs>Catalog.mega_ВидыДеталей</catalogs>
   <catalogs>Catalog.mega_ВидыМатериалов</catalogs>
   <catalogs>Catalog.mega_ВидыСтадийОбработки</catalogs>
+  <catalogs>Catalog.mega_ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.mega_ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.mega_КлассификаторЕдиницИзмерения</catalogs>
   <catalogs>Catalog.mega_Контрагенты</catalogs>

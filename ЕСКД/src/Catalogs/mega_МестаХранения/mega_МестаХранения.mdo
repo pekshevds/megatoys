@@ -19,6 +19,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>7</codeLength>
@@ -33,6 +34,8 @@
   <defaultObjectForm>Catalog.mega_МестаХранения.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.mega_МестаХранения.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.mega_МестаХранения.Form.ФормаВыбора</defaultChoiceForm>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
   <attributes uuid="682b8800-6ae0-4593-8a76-8ca1ecbf2c53">
     <name>Подразделение</name>
     <synonym>
