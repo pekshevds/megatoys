@@ -16,6 +16,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.mega_ЭлементыПроизводственныхРесурсов.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.mega_ЭлементыПроизводственныхРесурсов.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

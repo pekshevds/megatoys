@@ -10,7 +10,7 @@
   <name>mega_ПроизводственнаяОперацияСводная</name>
   <synonym>
     <key>ru</key>
-    <value>Производственная операция (сводная)</value>
+    <value>Производственная операция (ОПзС)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.mega_ПроизводственнаяОперацияСводная.StandardAttribute.Number</inputByString>
@@ -61,7 +61,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <listPresentation>
     <key>ru</key>
-    <value>Производственные операции (сводные)</value>
+    <value>Производственные операции (ОПзС)</value>
   </listPresentation>
   <dataHistory>Use</dataHistory>
   <numberType>String</numberType>

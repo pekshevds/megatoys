@@ -14,7 +14,8 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.mega_Контрагенты.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.mega_Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_Контрагенты.Attribute.ИНН</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -68,7 +69,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
+    <indexing>IndexWithAdditionalOrder</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
