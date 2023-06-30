@@ -1018,6 +1018,60 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
+            <name>ТехнологическиеОперацииТехнологическаяОперацияКоэффициентыСложности</name>
+            <id>263</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.ТехнологическиеОперации.ТехнологическаяОперацияКоэффициентыСложности</segments>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ТехнологическиеОперацииТехнологическаяОперацияКоэффициентыСложностиПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ТехнологическиеОперацииТехнологическаяОперацияКоэффициентыСложностиРасширеннаяПодсказка</name>
+              <id>265</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ТехнологическиеОперацииТехнологическаяОперацияКоэффициентыСложностиКонтекстноеМеню</name>
+              <id>264</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
             <name>ТехнологическиеОперацииТехнологическаяОперацияСумма</name>
             <id>221</id>
             <visible>true</visible>

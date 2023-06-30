@@ -15,5 +15,9 @@
   <content>Catalog.mega_ВидыСтадийОбработки</content>
   <content>Catalog.mega_ПроизводственныеРесурсы</content>
   <content>Catalog.ПроизводственныеКалендари</content>
+  <content>Catalog.mega_УчасткиПроизводства</content>
+  <content>Catalog.mega_ПричиныКорректировкиВидовСтадийОбработки</content>
+  <content>InformationRegister.mega_ЗначенияКоэффициентовСложностиПроизводства</content>
+  <content>Catalog.mega_КоэффициентыСложностиПроизводства</content>
   <parentSubsystem>Subsystem.mega_Производство</parentSubsystem>
 </mdclass:Subsystem>

@@ -314,11 +314,25 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="267ed2e7-5197-49ff-ad62-e74ded8656fe">
+      <name>ТехнологическаяОперацияКоэффициентыСложности</name>
+      <synonym>
+        <key>ru</key>
+        <value>К. сложности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.mega_КоэффициентыСложностиПроизводства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="17b183cc-b3b9-4d89-824e-82b80a196d66">
       <name>ТехнологическаяОперацияЦена</name>
       <synonym>
         <key>ru</key>
-        <value>Цена</value>
+        <value>Тариф</value>
       </synonym>
       <type>
         <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>

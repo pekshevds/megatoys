@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fc6dbcd-d913-4adc-b9ac-42c2b0e1c648">
+  <producedTypes>
+    <objectType typeId="aad5874b-e1da-4fc5-8ba4-2485cf9e835f" valueTypeId="0b90be91-e670-4164-bc9e-c8ed7ca8665d"/>
+    <refType typeId="e691f726-ec1a-4e05-9ac2-c5f94e2c157b" valueTypeId="2f2253a6-bdae-4560-b51a-82935472c665"/>
+    <selectionType typeId="93d35473-3b05-4855-876b-9c5addc7f0a2" valueTypeId="ff05c630-abef-45d6-b5b2-94efa1e602e8"/>
+    <listType typeId="6d4bafb9-6bb1-4504-ad6f-f82a36d3f47a" valueTypeId="1c1fce95-ee39-4ed8-9491-a09b286515f2"/>
+    <managerType typeId="50c4f8bb-17fd-4321-aa2e-6d3231d62ec8" valueTypeId="bbf0b8ec-71c1-49d7-9454-6ba863138f31"/>
+  </producedTypes>
+  <name>mega_КоэффициентыСложностиПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты сложности производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_КоэффициентыСложностиПроизводства.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_КоэффициентыСложностиПроизводства.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Коэффициент</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Коэффициенты сложности производства</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1936,6 +1936,7 @@
   <catalogs>Catalog.mega_ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.mega_КлассификаторЕдиницИзмерения</catalogs>
   <catalogs>Catalog.mega_Контрагенты</catalogs>
+  <catalogs>Catalog.mega_КоэффициентыСложностиПроизводства</catalogs>
   <catalogs>Catalog.mega_МестаХранения</catalogs>
   <catalogs>Catalog.mega_Номенклатура</catalogs>
   <catalogs>Catalog.mega_НоменклатураПоставщиков</catalogs>
@@ -2233,6 +2234,9 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <informationRegisters>InformationRegister.mega_ЗначенияКоэффициентовСложностиПроизводства</informationRegisters>
+  <informationRegisters>InformationRegister.mega_ЦеныПлановойСебестоимости</informationRegisters>
+  <informationRegisters>InformationRegister.mega_ЦеныПоставщиков</informationRegisters>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
@@ -2387,17 +2391,15 @@
   <informationRegisters>InformationRegister.СубъектыДляСкрытияПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
   <informationRegisters>InformationRegister.УведомленияОПрочтении</informationRegisters>
-  <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
-  <informationRegisters>InformationRegister.УровниСокращенийАдресныхСведений</informationRegisters>
-  <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
-  <informationRegisters>InformationRegister.ЭлектронныеПодписи</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьНастройкиТранспортаОбмена</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
-  <informationRegisters>InformationRegister.mega_ЦеныПлановойСебестоимости</informationRegisters>
-  <informationRegisters>InformationRegister.mega_ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
+  <informationRegisters>InformationRegister.УровниСокращенийАдресныхСведений</informationRegisters>
+  <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
+  <informationRegisters>InformationRegister.ЭлектронныеПодписи</informationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ВыпускПродукции</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ВыработкаИсполнителей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.mega_ЗавкиВнутренние</accumulationRegisters>

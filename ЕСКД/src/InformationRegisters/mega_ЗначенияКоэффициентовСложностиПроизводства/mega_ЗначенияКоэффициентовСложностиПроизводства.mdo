@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc0600c0-78b2-42af-8487-7454513528d6">
+  <producedTypes>
+    <selectionType typeId="53482628-5521-4894-b87c-73be0e851826" valueTypeId="095047bd-15e7-489c-884b-948e6ed006c6"/>
+    <listType typeId="045049f0-3d3f-41f5-a1b0-e8e4c07d385f" valueTypeId="8124d2ec-338e-4ba7-9260-a1f8da49b57b"/>
+    <managerType typeId="ae2415eb-5bb9-4177-99a0-2637bc18dfb2" valueTypeId="8b332b77-e069-41ff-82dd-f74dc06fd50d"/>
+    <recordSetType typeId="d78b92dd-70cb-405f-b84a-03faaa912bdd" valueTypeId="726e9ab9-5ec1-464a-9f82-54ccfbb30781"/>
+    <recordKeyType typeId="62ded774-21ea-4f08-bbd9-27cdc53b76c2" valueTypeId="9739ddca-4a54-4722-8abf-d2e4a417b39a"/>
+    <recordType typeId="5f2b9015-b0ca-44d8-af6b-67ef163b8f0f" valueTypeId="b7523077-9d85-44b5-9a20-84ba8cefdf11"/>
+    <recordManagerType typeId="f0ee7e74-35f9-4d46-9033-28cbe0eaa5cd" valueTypeId="0e0cedb9-e5f8-4f45-8cf5-0721aa18d6b0"/>
+  </producedTypes>
+  <name>mega_ЗначенияКоэффициентовСложностиПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения коэффициентов сложности производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="53d0e6b8-7ca7-4d13-a619-f2baad60c481">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ff168386-d99c-44fc-9411-71bb948eed9c">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_КоэффициентыСложностиПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
