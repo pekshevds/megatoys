@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5ebaa58-c81f-4c7f-a635-d2425f506f30">
+  <producedTypes>
+    <objectType typeId="cf651d63-9215-4942-a446-85d3f11a7e9c" valueTypeId="a0bc8527-b1b7-4046-8c12-2d30c6b42a26"/>
+    <refType typeId="5be55872-50d3-4e30-b39d-17d45c4b3833" valueTypeId="78a64ade-6b85-43fc-a44f-f053a2741787"/>
+    <selectionType typeId="62be8f74-f89e-4489-b974-3449fcf1c7d8" valueTypeId="b1d08c83-ceac-43d9-88ea-8cf8cb536794"/>
+    <listType typeId="beb778a0-739f-4f47-972c-63d727c228b0" valueTypeId="e1f7bc86-a9ca-4d76-af5c-cb778e841cc5"/>
+    <managerType typeId="6a9b1881-663f-41c1-9e89-627a45af574a" valueTypeId="d08ebb8f-73c6-48b2-b3c3-08d0d529a3c7"/>
+  </producedTypes>
+  <name>mega_ЗакрытиеЗаявокНаПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие заявок на перемещение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.mega_ЗакрытиеЗаявокНаПеремещение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Закрытия заявок поставщикам</value>
+  </listPresentation>
+  <dataHistory>Use</dataHistory>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.mega_ЗакрытиеЗаявокНаПеремещение.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_ЗакрытиеЗаявокНаПеремещение.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.mega_ЗавкиПоставщикам</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ЗавкиВнутренние</registerRecords>
+  <registerRecords>AccumulationRegister.mega_ЗавкиНаПеремещение</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <attributes uuid="e081f85a-bb37-4f31-a6d5-0b0a65c9dbcd">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший встречу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="417b6ab5-bfa2-4e9d-9776-4e4e93847917">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за работу по встрече</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="49a90ea9-0511-4f0b-bd4d-46a8ae964913">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bc88efa7-66d7-499c-b18f-9c0912ddfd0e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7344d0b1-1ae6-440f-982a-50596b5b3e8c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="326ea56b-d58d-490c-be23-42b8a831cf81">
+    <producedTypes>
+      <objectType typeId="5f09ed32-715f-47ad-a572-4839a76b7102" valueTypeId="0f5722b8-e971-44f8-9ac7-e2a67d294c92"/>
+      <rowType typeId="78e61ec3-0df7-4afd-8564-dfefc0a44291" valueTypeId="d71bb375-32bd-43af-96e3-23d0bc6c2487"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5c705bb4-9871-4cb7-8fbd-2167dd45581a">
+      <name>ЗаявкаНаПеремещение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка на перемещение</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.mega_ЗаявкаНаПеремещение</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="184d21d9-521a-461b-a765-e8a94bd948f5">
+    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

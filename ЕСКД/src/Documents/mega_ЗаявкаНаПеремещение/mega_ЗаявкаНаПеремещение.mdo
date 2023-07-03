@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f104bdfd-ec6a-4337-a773-c6b4b1d37414">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d78a2aa-169c-4162-bcdb-ce61e6602fb7">
   <producedTypes>
-    <objectType typeId="06ec74ff-f9e5-4bf8-bbae-5573963a1231" valueTypeId="0258d152-46ba-459d-8111-46a49869e7e2"/>
-    <refType typeId="a2d61bae-a49b-4986-985f-017fc4c4d590" valueTypeId="440b36fd-bcf3-4793-8f98-9540746f4ce7"/>
-    <selectionType typeId="646ae4c2-fb5f-4754-869f-02272a3dc1c4" valueTypeId="d9371324-ba55-41cb-873f-48406e14e929"/>
-    <listType typeId="55815c4e-9337-4ed9-98a4-8e2a42e2d790" valueTypeId="d138f0df-7933-4141-8026-55a3f7eeef44"/>
-    <managerType typeId="645cac07-1c3c-4aa5-965b-831113ba46b4" valueTypeId="d84ecd73-c6ce-43de-93fd-8cebea0e942b"/>
+    <objectType typeId="50bb024e-b803-4076-9776-275c9c7fd072" valueTypeId="a9ed3bcf-60f9-434e-afe2-f279b17f58fb"/>
+    <refType typeId="40e370c7-4cec-44fc-83e3-5e295a28c3dd" valueTypeId="c696342a-d5c9-4af7-befd-20efef051312"/>
+    <selectionType typeId="b14ef10a-a1f3-43db-a721-f4c798f40423" valueTypeId="93504af8-2135-4d79-9034-2cdb48e766b6"/>
+    <listType typeId="119abd81-10d2-43f2-bb0a-31e4633440ab" valueTypeId="a4c0108f-363d-4030-9cf1-72bf387de68a"/>
+    <managerType typeId="e36f1073-f907-4eef-a324-d47a5e9a502d" valueTypeId="0fd6e8d7-4be7-48b0-bf53-c0458a4501a1"/>
   </producedTypes>
-  <name>mega_ПеремещениеМеждуПодразделениями</name>
+  <name>mega_ЗаявкаНаПеремещение</name>
   <synonym>
     <key>ru</key>
-    <value>Перемещение между подразделениями</value>
+    <value>Заявка на перемещение</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.mega_ПеремещениеМеждуПодразделениями.StandardAttribute.Number</inputByString>
+  <inputByString>Document.mega_ЗаявкаНаПеремещение.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <basedOn>Document.mega_ЗаявкаНаПеремещение</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Заявка на перемещение</value>
+  </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Перемещения между подразделениями</value>
+    <value>Заявки на перемещение</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.mega_ПеремещениеМеждуПодразделениями.Form.ФормаДокумента</defaultObjectForm>
-  <defaultListForm>Document.mega_ПеремещениеМеждуПодразделениями.Form.ФормаСписка</defaultListForm>
-  <realTimePosting>Deny</realTimePosting>
-  <registerRecords>AccumulationRegister.mega_СкладскиеЗапасы</registerRecords>
+  <defaultObjectForm>Document.mega_ЗаявкаНаПеремещение.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.mega_ЗаявкаНаПеремещение.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.mega_ЗавкиНаПеремещение</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="e936c837-d06b-4547-b94e-bff291f289ce">
+  <attributes uuid="18e81f65-ff5a-4dd1-93c9-933838e9de12">
     <name>Автор</name>
     <synonym>
       <key>ru</key>
@@ -56,7 +57,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="46cffdbc-ba9c-4a8b-b0ec-a94fb2c7680a">
+  <attributes uuid="fc77336e-af19-40aa-a05a-2208fe69e1e7">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
@@ -78,7 +79,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="edaba5b1-5886-44ec-99af-35833a1f8f73">
+  <attributes uuid="5ae4b749-8369-4f13-af86-1f3466c0acf6">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -102,11 +103,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3c97ea55-3cd9-4994-b9ef-6b5641860c4d">
-    <name>ПодразделениеОтправитель</name>
+  <attributes uuid="43e52290-9d7f-4f3a-8717-2acf9252efee">
+    <name>ПодразделениеЗаказчик</name>
     <synonym>
       <key>ru</key>
-      <value>Отправитель</value>
+      <value>Заказчик</value>
     </synonym>
     <type>
       <types>CatalogRef.mega_Подразделения</types>
@@ -117,11 +118,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d81c194a-ce5d-46c5-a12e-b3eb2692f909">
-    <name>ПодразделениеПолучатель</name>
+  <attributes uuid="6a01c39f-ded9-425e-bd37-27b99e480518">
+    <name>ПодразделениеИсполнитель</name>
     <synonym>
       <key>ru</key>
-      <value>Получатель</value>
+      <value>Исполнитель</value>
     </synonym>
     <type>
       <types>CatalogRef.mega_Подразделения</types>
@@ -132,7 +133,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="c1ff5b71-3972-49d5-a0c8-92b411148968">
+  <forms uuid="ed601799-8541-40e3-b27c-c03ab3b69756">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -141,7 +142,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="375546b3-1882-4332-bcba-40c64eff57fb">
+  <forms uuid="0390b3f5-9b47-4ffb-a65b-d4311ba1aabd">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -150,10 +151,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="d9c31835-9509-42cb-9a8a-30cff8183db5">
+  <tabularSections uuid="bd5bd2b2-a156-4f83-836c-17d0cdbec73a">
     <producedTypes>
-      <objectType typeId="6b767212-4ce4-4873-8d1f-381d36283de0" valueTypeId="776bb53a-f3f5-4a59-9688-fbeee46d216b"/>
-      <rowType typeId="dbc88c54-9d07-446c-be53-6b870699e7f6" valueTypeId="399eb3ad-afb0-400b-a7f8-f0e7b8dc191b"/>
+      <objectType typeId="91a706aa-40b5-4920-a1e9-d69e16d438f2" valueTypeId="dc6c78f5-4dff-4c34-af83-aed53354fbc9"/>
+      <rowType typeId="c93d9736-9821-41b6-999e-efae4a8a3811" valueTypeId="0ef7f4ea-e847-49b3-88ee-20a93a17d227"/>
     </producedTypes>
     <name>Состав</name>
     <synonym>
@@ -168,7 +169,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="38d9f1cf-9171-425d-a659-ded5eafe3b47">
+    <attributes uuid="fd8a72df-70fa-4baf-b7b1-bfeb2a09d154">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -183,7 +184,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="a548eeac-3c58-4288-b601-6166135f5118">
+    <attributes uuid="735aeb28-66f1-4c2b-a4d4-0370c76a1d9b">
       <name>ЕдиницаИзмерения</name>
       <synonym>
         <key>ru</key>
@@ -197,12 +198,12 @@
       <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Document.mega_ПеремещениеМеждуПодразделениями.TabularSection.Состав.Attribute.Номенклатура</field>
+        <field>Document.mega_ЗаявкаНаПеремещение.TabularSection.Состав.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="88f23529-6530-484b-8347-a1cdd92330fd">
+    <attributes uuid="197b418e-98d1-46e9-adde-4540a135b972">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -217,7 +218,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="6eef6d62-845a-4991-9fd1-e15b3c2feffd">
+    <attributes uuid="fce9d59c-59f0-4b25-81b8-76e57affb0e6">
       <name>ВидСтадииОбработки</name>
       <synonym>
         <key>ru</key>
@@ -231,48 +232,12 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="939e61ef-03fc-4967-95cf-f95452e88cdb">
-      <name>МестоХраненияОтправитель</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ячейка отправитель</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.mega_МестаХранения</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceParameterLinks>
-        <name>Отбор.Подразделение</name>
-        <field>Document.mega_ПеремещениеМеждуПодразделениями.Attribute.ПодразделениеОтправитель</field>
-      </choiceParameterLinks>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="b9692387-0e6b-40f2-a8e6-198d422cf6b9">
-      <name>МестоХраненияПолучатель</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ячейка получатель</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.mega_МестаХранения</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceParameterLinks>
-        <name>Отбор.Подразделение</name>
-        <field>Document.mega_ПеремещениеМеждуПодразделениями.Attribute.ПодразделениеПолучатель</field>
-      </choiceParameterLinks>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
   </tabularSections>
-  <templates uuid="5e61aa31-643a-4b3d-97e6-dc1a92d127b7">
-    <name>ПФ_MXL_Перемещение</name>
+  <templates uuid="747f1245-92a6-4bd6-a0f3-92aa085d3786">
+    <name>ПФ_MXL_ЗаявкаНаПеремещение</name>
     <synonym>
       <key>ru</key>
-      <value>Перемещение</value>
+      <value>Заявка на перемещение</value>
     </synonym>
   </templates>
 </mdclass:Document>
