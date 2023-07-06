@@ -311,9 +311,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ЗаявкиВнутренние.Номенклатура.МинимальныйДопустимыйОстаток</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ЗаявкиВнутренниеНоменклатураМинимальныйДопустимыйОстатокРасширеннаяПодсказка</name>
           <id>49</id>
@@ -339,19 +336,10 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>ЗаявкиВнутренниеНоменклатураРекомендуемыйОстаток</name>
@@ -365,9 +353,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ЗаявкиВнутренние.Номенклатура.РекомендуемыйОстаток</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ЗаявкиВнутренниеНоменклатураРекомендуемыйОстатокРасширеннаяПодсказка</name>
           <id>52</id>
@@ -393,19 +378,10 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>

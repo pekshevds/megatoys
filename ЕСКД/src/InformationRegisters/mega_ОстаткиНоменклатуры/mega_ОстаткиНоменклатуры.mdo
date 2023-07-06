@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f0c0004-78aa-4892-b4a5-2f8e4e7bc7ce">
+  <producedTypes>
+    <selectionType typeId="b2369e8e-1ec4-4aba-b82a-34f81b4f882c" valueTypeId="fdbfcec2-d7b7-4237-8ead-ac80e608b6f2"/>
+    <listType typeId="325109e2-074b-44e3-896b-ccd729e0eb4b" valueTypeId="47f03a3a-9bdb-401f-81f6-7c59ab5db506"/>
+    <managerType typeId="e8a61394-acb0-416e-95aa-1bf0b84f3cbd" valueTypeId="1974140f-2639-4427-b5d1-b36941b71d20"/>
+    <recordSetType typeId="1759989f-4072-404d-b867-c3f82f3c7f64" valueTypeId="38280f29-d62e-4f5a-97c2-e6708ba70ec1"/>
+    <recordKeyType typeId="e450c080-a60d-49dc-8df6-690c84bcc197" valueTypeId="dddc8583-81c5-4019-a989-2b1d446c5e11"/>
+    <recordType typeId="79d5e357-688a-4241-8da0-3d7476470b7b" valueTypeId="7afa2bae-b645-4056-90da-05f63c2b2fc1"/>
+    <recordManagerType typeId="46113c9f-4fce-4508-b8fc-db1b56176800" valueTypeId="97838449-e1e9-45b5-bbc0-3e1e4b99e6a1"/>
+  </producedTypes>
+  <name>mega_ОстаткиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.mega_ОстаткиНоменклатуры.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.mega_ОстаткиНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2a65e51c-611c-4def-9b93-b29aab089be3">
+    <name>МинимальныйДопустимыйОстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный допустимый остаток</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3997bfa3-b582-48d2-99d3-fc31c8b30315">
+    <name>РекомендуемыйОстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендуемый остаток</value>
+    </synonym>
+    <type>
+      <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dc88d4b5-7c29-4136-a10a-a0eccaab5e92">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ec8318d1-27d3-42c7-803d-76854c89774c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b253bf25-fbe5-4036-be24-7206350e9bbe">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0deb2017-827b-4bad-8038-26db1d5d6868">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

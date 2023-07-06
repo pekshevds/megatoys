@@ -337,36 +337,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3fd7246d-4639-461a-99da-7372af061e2e">
-    <name>МинимальныйДопустимыйОстаток</name>
-    <synonym>
-      <key>ru</key>
-      <value>Минимальный допустимый остаток</value>
-    </synonym>
-    <type>
-      <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5d1b2c84-94bd-44b7-9dd9-bcbd626cde1c">
-    <name>РекомендуемыйОстаток</name>
-    <synonym>
-      <key>ru</key>
-      <value>Рекомендуемый остаток</value>
-    </synonym>
-    <type>
-      <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="97010af2-3626-47f6-846f-2d847e3e2291">
     <name>Поставщик</name>
     <synonym>

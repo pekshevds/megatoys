@@ -2237,6 +2237,7 @@
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
   <informationRegisters>InformationRegister.mega_ЗначенияКоэффициентовСложностиПроизводства</informationRegisters>
+  <informationRegisters>InformationRegister.mega_ОстаткиНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.mega_ЦеныПлановойСебестоимости</informationRegisters>
   <informationRegisters>InformationRegister.mega_ЦеныПоставщиков</informationRegisters>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
