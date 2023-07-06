@@ -253,10 +253,10 @@
     </attributes>
   </tabularSections>
   <templates uuid="cb81908b-8272-454e-bc9b-5799fed178b0">
-    <name>ПФ_MXL_ПечатнаяФорма</name>
+    <name>ПФ_MXL_ЗаявкаВнутренняя</name>
     <synonym>
       <key>ru</key>
-      <value>Печатная форма</value>
+      <value>Заявка внутренняя</value>
     </synonym>
   </templates>
 </mdclass:Document>
