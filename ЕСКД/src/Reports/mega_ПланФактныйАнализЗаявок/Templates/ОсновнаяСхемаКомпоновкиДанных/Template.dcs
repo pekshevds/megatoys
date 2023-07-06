@@ -21,12 +21,11 @@
 			</title>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Формат</dcscor:parameter>
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЧЦ=15; ЧДЦ=3</v8:content>
+							<v8:content>ЧЦ=20; ЧДЦ=5</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
@@ -43,12 +42,11 @@
 			</title>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Формат</dcscor:parameter>
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЧЦ=15; ЧДЦ=3</v8:content>
+							<v8:content>ЧЦ=20; ЧДЦ=5</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
@@ -65,12 +63,11 @@
 			</title>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Формат</dcscor:parameter>
 					<dcscor:value xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЧЦ=15; ЧДЦ=3</v8:content>
+							<v8:content>ЧЦ=20; ЧДЦ=5</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
@@ -88,12 +85,48 @@
 			<dataPath>ДокументПотребности</dataPath>
 			<field>ДокументПотребности</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МинимальныйДопустимыйОстаток</dataPath>
+			<field>МинимальныйДопустимыйОстаток</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РекомендуемыйОстаток</dataPath>
+			<field>РекомендуемыйОстаток</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Потребность</dataPath>
+			<field>Потребность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Потребность</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧЦ=20; ЧДЦ=5</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	Данные.Номенклатура,
-	СУММА(Данные.ОстатокНаСкладе) КАК ОстатокНаСкладе,
-	СУММА(Данные.ЗаказноПодразделениями) КАК ЗаказноПодразделениями,
-	СУММА(Данные.ЗаказаноУПоставщиков) КАК ЗаказаноУПоставщиков
+	Данные.ОстатокНаСкладе КАК ОстатокНаСкладе,
+	Данные.ЗаказноПодразделениями КАК ЗаказноПодразделениями,
+	Данные.ОстатокНаСкладе + Данные.ЗаказноПодразделениями КАК Потребность,
+	Данные.ЗаказаноУПоставщиков КАК ЗаказаноУПоставщиков,
+	ОстаткиНоменклатурыСрезПоследних.МинимальныйДопустимыйОстаток КАК МинимальныйДопустимыйОстаток,
+	ОстаткиНоменклатурыСрезПоследних.РекомендуемыйОстаток КАК РекомендуемыйОстаток
 ИЗ
 	(ВЫБРАТЬ
 		СкладскиеЗапасыОстатки.Номенклатура,
@@ -122,8 +155,8 @@
 		ЗавкиПоставщикамОстатки.КоличествоОстаток КАК Поле2
 	ИЗ
 		РегистрНакопления.mega_ЗавкиПоставщикам.Остатки КАК ЗавкиПоставщикамОстатки) КАК Данные
-СГРУППИРОВАТЬ ПО
-	Данные.Номенклатура</query>
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.mega_ОстаткиНоменклатуры.СрезПоследних КАК ОстаткиНоменклатурыСрезПоследних
+		ПО Данные.Номенклатура = ОстаткиНоменклатурыСрезПоследних.Номенклатура</query>
 	</dataSet>
 	<totalField>
 		<dataPath>ЗаказаноУПоставщиков</dataPath>
@@ -136,6 +169,10 @@
 	<totalField>
 		<dataPath>ОстатокНаСкладе</dataPath>
 		<expression>Сумма(ОстатокНаСкладе)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Потребность</dataPath>
+		<expression>Сумма(Потребность)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -180,10 +217,13 @@
 					<dcsset:field>ОстатокНаСкладе</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЗаказаноУПоставщиков</dcsset:field>
+					<dcsset:field>ЗаказноПодразделениями</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЗаказноПодразделениями</dcsset:field>
+					<dcsset:field>Потребность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказаноУПоставщиков</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
@@ -219,6 +259,10 @@
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
 					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
 				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
@@ -228,6 +272,16 @@
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
 						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>МинимальныйДопустимыйОстаток</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>РекомендуемыйОстаток</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>

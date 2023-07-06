@@ -85,6 +85,13 @@
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	СкладскиеЗапасыЗапасыОстаткиИОбороты.ПериодСекунда КАК ПериодСекунда,
@@ -97,9 +104,10 @@
 	СкладскиеЗапасыЗапасыОстаткиИОбороты.КоличествоНачальныйОстаток КАК КоличествоНачальныйОстаток,
 	СкладскиеЗапасыЗапасыОстаткиИОбороты.КоличествоПриход КАК КоличествоПриход,
 	СкладскиеЗапасыЗапасыОстаткиИОбороты.КоличествоРасход КАК КоличествоРасход,
-	СкладскиеЗапасыЗапасыОстаткиИОбороты.КоличествоКонечныйОстаток КАК КоличествоКонечныйОстаток
+	СкладскиеЗапасыЗапасыОстаткиИОбороты.КоличествоКонечныйОстаток КАК КоличествоКонечныйОстаток,
+	СкладскиеЗапасыЗапасыОстаткиИОбороты.Подразделение
 ИЗ
-	РегистрНакопления.mega_СкладскиеЗапасы.ОстаткиИОбороты(, , Авто, , ) КАК СкладскиеЗапасыЗапасыОстаткиИОбороты</query>
+	РегистрНакопления.mega_СкладскиеЗапасы.ОстаткиИОбороты(,, Авто,,) КАК СкладскиеЗапасыЗапасыОстаткиИОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>КоличествоКонечныйОстаток</dataPath>
@@ -203,7 +211,6 @@
 					<dcsset:left xsi:type="dcscor:Field">ВидСтадииОбработки</dcsset:left>
 					<dcsset:comparisonType>InList</dcsset:comparisonType>
 					<dcsset:right xsi:type="v8:ValueListType">
-						<v8:valueType/>
 						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
 					</dcsset:right>
 					<dcsset:userSettingID>abde853d-2998-4b5d-af4a-c6f7d6c54a7c</dcsset:userSettingID>
@@ -219,7 +226,6 @@
 					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
 					<dcsset:comparisonType>InList</dcsset:comparisonType>
 					<dcsset:right xsi:type="v8:ValueListType">
-						<v8:valueType/>
 						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
 					</dcsset:right>
 					<dcsset:userSettingID>18c10f0f-fac4-4ae0-93b1-e298b7d376ef</dcsset:userSettingID>
@@ -235,7 +241,6 @@
 					<dcsset:left xsi:type="dcscor:Field">МестоХранения</dcsset:left>
 					<dcsset:comparisonType>InList</dcsset:comparisonType>
 					<dcsset:right xsi:type="v8:ValueListType">
-						<v8:valueType/>
 						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
 					</dcsset:right>
 					<dcsset:userSettingID>7ea252cc-a94e-4753-ab2e-9a31cf231b14</dcsset:userSettingID>
@@ -243,6 +248,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Место хранения</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:userSettingID>6ab256b7-2425-4e45-a235-e71c93c0ec4a</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подразделения</v8:content>
 						</v8:item>
 					</dcsset:userSettingPresentation>
 				</dcsset:item>
@@ -292,11 +309,9 @@
 				<dcsset:column>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>МестоХранения</dcsset:field>
+							<dcsset:field>Подразделение</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>
@@ -305,6 +320,23 @@
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>МестоХранения</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
 				</dcsset:column>
 				<dcsset:row>
 					<dcsset:groupItems>
