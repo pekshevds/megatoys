@@ -10,9 +10,12 @@
     <value>Связанные документы</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>DocumentRef</types>
   </type>
+  <content>Document.mega_ЗакрытиеЗаявокВнутренних.TabularSection.Состав.Attribute.ЗаявкаВнутренняя</content>
+  <content>Document.mega_ЗакрытиеЗаявокНаПеремещение.TabularSection.Состав.Attribute.ЗаявкаНаПеремещение</content>
+  <content>Document.mega_ЗакрытиеЗаявокПоставщикам.TabularSection.Состав.Attribute.ЗаявкаПоставщику</content>
+  <content>Document.mega_ПроизводственнаяОперацияСводная.Attribute.СменноеЗадание</content>
+  <content>Document.mega_СменноеЗадание.Attribute.ПланПроизводства</content>
+  <content>Document.mega_УстановкаЦенПлановойСебестоимости.Attribute.ДокументОснование</content>
 </mdclass:FilterCriterion>
