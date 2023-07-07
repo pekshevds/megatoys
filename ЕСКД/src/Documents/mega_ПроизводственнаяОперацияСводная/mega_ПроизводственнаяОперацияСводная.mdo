@@ -212,6 +212,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c15f9cfe-0172-4c09-b1db-5db4d9ee62c4">
+    <name>КоэффициентСложности</name>
+    <synonym>
+      <key>ru</key>
+      <value>К. сложности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_КоэффициентыСложностиПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="8e755b5a-83d6-4ce9-8146-c34b5377dc47">
     <name>ФормаДокумента</name>
     <synonym>
@@ -315,7 +329,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="267ed2e7-5197-49ff-ad62-e74ded8656fe">
-      <name>ТехнологическаяОперацияКоэффициентыСложности</name>
+      <name>ТехнологическаяОперацияКоэффициентСложности</name>
       <synonym>
         <key>ru</key>
         <value>К. сложности</value>
@@ -636,6 +650,20 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
     </attributes>
+    <attributes uuid="8d233163-3a9e-4612-afca-624aeac7bbf7">
+      <name>КоличествоПоСпецификации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество по спецификации</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="9968d342-6ac4-4edc-a8cf-9d6f53af9edc">
     <producedTypes>
@@ -744,6 +772,20 @@
         <name>Отбор.Владелец</name>
         <field>Document.mega_ПроизводственнаяОперацияСводная.TabularSection.Материалы.Attribute.Номенклатура</field>
       </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc41ae0a-6522-4a6c-b1a5-7eb7b3347812">
+      <name>КоличествоПоСпецификации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество по спецификации</value>
+      </synonym>
+      <type>
+        <types>DefinedType.mega_КоличественнаяСуммаНеотрицательная</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
