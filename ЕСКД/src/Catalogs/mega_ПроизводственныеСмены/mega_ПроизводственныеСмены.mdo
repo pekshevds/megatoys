@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90fafd7c-7c6b-48e0-94b7-4b3c67dfa383">
+  <producedTypes>
+    <objectType typeId="720198b6-9df6-444a-8a96-ac86d6c7969b" valueTypeId="0c1a3b36-10a6-4018-9883-469d4d8bf4e9"/>
+    <refType typeId="b1008bd2-f671-4d93-a792-b667b8b2b3af" valueTypeId="13cc8849-41e7-499d-bb04-dcfffa6cf1ac"/>
+    <selectionType typeId="42d57fad-3e8b-47fa-8af2-fffcf3261e25" valueTypeId="51cd1e6b-bf6d-4fc7-91de-72422f6bbc74"/>
+    <listType typeId="1e6907c2-e29c-471a-b882-a46a78d7be51" valueTypeId="167811ff-b1de-4b67-a3e3-b947943955ca"/>
+    <managerType typeId="6ea16138-e347-4d95-8748-b7fefe097b7f" valueTypeId="07a96aa1-f898-41d6-bf71-7f68f2f307cb"/>
+  </producedTypes>
+  <name>mega_ПроизводственныеСмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные смены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mega_ПроизводственныеСмены.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.mega_ПроизводственныеСмены.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+</mdclass:Catalog>

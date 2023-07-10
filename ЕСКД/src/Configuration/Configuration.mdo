@@ -1943,6 +1943,7 @@
   <catalogs>Catalog.mega_Подразделения</catalogs>
   <catalogs>Catalog.mega_ПричиныКорректировкиВидовСтадийОбработки</catalogs>
   <catalogs>Catalog.mega_ПроизводственныеРесурсы</catalogs>
+  <catalogs>Catalog.mega_ПроизводственныеСмены</catalogs>
   <catalogs>Catalog.mega_Спецификации</catalogs>
   <catalogs>Catalog.mega_УчасткиПроизводства</catalogs>
   <catalogs>Catalog.mega_ШаблоныСпецификаций</catalogs>
