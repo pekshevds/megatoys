@@ -188,6 +188,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="41d0c28b-fd35-400f-ace3-427c767195a1">
+    <name>ПроизводственнаяСмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственная смена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mega_ПроизводственныеСмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6c47a9ca-7de3-474e-ba50-a5c467622679">
     <name>ФормаДокумента</name>
     <synonym>
