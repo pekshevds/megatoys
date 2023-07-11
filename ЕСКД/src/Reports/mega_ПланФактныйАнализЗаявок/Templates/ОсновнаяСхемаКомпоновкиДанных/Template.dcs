@@ -97,33 +97,11 @@
 			<dataPath>РекомендуемыйОстаток</dataPath>
 			<field>РекомендуемыйОстаток</field>
 		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Потребность</dataPath>
-			<field>Потребность</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Потребность</v8:content>
-				</v8:item>
-			</title>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧЦ=20; ЧДЦ=5</v8:content>
-						</v8:item>
-					</dcscor:value>
-				</dcscor:item>
-			</appearance>
-		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	Данные.Номенклатура,
 	Данные.ОстатокНаСкладе КАК ОстатокНаСкладе,
 	Данные.ЗаказноПодразделениями КАК ЗаказноПодразделениями,
-	Данные.ОстатокНаСкладе + Данные.ЗаказноПодразделениями КАК Потребность,
 	Данные.ЗаказаноУПоставщиков КАК ЗаказаноУПоставщиков,
 	ОстаткиНоменклатурыСрезПоследних.МинимальныйДопустимыйОстаток КАК МинимальныйДопустимыйОстаток,
 	ОстаткиНоменклатурыСрезПоследних.РекомендуемыйОстаток КАК РекомендуемыйОстаток
@@ -170,10 +148,6 @@
 		<dataPath>ОстатокНаСкладе</dataPath>
 		<expression>Сумма(ОстатокНаСкладе)</expression>
 	</totalField>
-	<totalField>
-		<dataPath>Потребность</dataPath>
-		<expression>Сумма(Потребность)</expression>
-	</totalField>
 	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
@@ -218,9 +192,6 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ЗаказноПодразделениями</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Потребность</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ЗаказаноУПоставщиков</dcsset:field>
